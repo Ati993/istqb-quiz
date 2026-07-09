@@ -172,6 +172,22 @@ h2 {
   font-size: 0.9rem;
 }
 
+.btn-quit {
+  border: 1px solid var(--border);
+  background: #fafbfd;
+  color: var(--muted);
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-size: 0.82rem;
+  cursor: pointer;
+}
+
+.btn-quit:hover {
+  border-color: var(--red);
+  color: var(--red);
+  background: var(--red-bg);
+}
+
 .progress-bar {
   height: 6px;
   background: var(--border);
@@ -476,6 +492,61 @@ h2 {
   font-size: 0.78rem;
   color: var(--muted);
   line-height: 1.5;
+}
+
+/* --- Spickzettel --- */
+.cheat-cat {
+  margin-top: 26px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--primary);
+  color: var(--primary);
+}
+
+.cheat-row {
+  display: flex;
+  gap: 12px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.cheat-lo {
+  flex-shrink: 0;
+  width: 74px;
+  font-weight: 700;
+  color: var(--muted);
+  font-size: 0.8rem;
+  padding-top: 2px;
+}
+
+.cheat-text {
+  flex: 1;
+}
+
+@media print {
+  body {
+    background: #fff;
+    padding: 0;
+  }
+
+  .card {
+    box-shadow: none;
+    padding: 0;
+  }
+
+  .no-print,
+  .btn-row {
+    display: none !important;
+  }
+
+  .cheat-cat {
+    break-after: avoid;
+  }
+
+  .cheat-row {
+    break-inside: avoid;
+  }
 }
 
 @media (max-width: 560px) {

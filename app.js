@@ -8,6 +8,7 @@
   const PASS_THRESHOLD = 65; // Prozent, wie im echten ISTQB-Examen
   const LS_SESSIONS = "istqb-sessions";
   const LS_WRONG = "istqb-wrong-ids";
+  const LS_CURRENT = "istqb-current-quiz";
 
   const CATEGORIES = [...new Set(QUESTIONS.map((q) => q.category))];
   const LETTERS = ["a", "b", "c", "d", "e", "f"];
@@ -34,6 +35,44 @@
   }
   function saveWrongIds(set) {
     localStorage.setItem(LS_WRONG, JSON.stringify([...set]));
+  }
+
+  // Laufendes Quiz sichern, damit ein Neuladen der Seite nicht alles verwirft
+  function saveCurrent() {
+    if (!quiz) return;
+    localStorage.setItem(
+      LS_CURRENT,
+      JSON.stringify({
+        ids: quiz.questions.map((q) => q.id),
+        index: quiz.index,
+        results: quiz.results,
+        mode: quiz.mode,
+      })
+    );
+  }
+  function clearCurrent() {
+    localStorage.removeItem(LS_CURRENT);
+  }
+  function tryResume() {
+    let saved;
+    try {
+      saved = JSON.parse(localStorage.getItem(LS_CURRENT));
+    } catch {
+      return false;
+    }
+    if (!saved || !Array.isArray(saved.ids) || saved.index >= saved.ids.length) return false;
+    const byId = new Map(QUESTIONS.map((q) => [q.id, q]));
+    const questions = saved.ids.map((id) => byId.get(id)).filter(Boolean);
+    if (questions.length !== saved.ids.length) return false; // Fragenpool hat sich geändert
+    quiz = {
+      questions,
+      index: saved.index,
+      results: saved.results || [],
+      mode: saved.mode || "Übung",
+      selected: new Set(),
+    };
+    renderQuestion();
+    return true;
   }
 
   // ---------- Hilfsfunktionen ----------
@@ -70,6 +109,7 @@
       mode,
       selected: new Set(),
     };
+    saveCurrent();
     renderQuestion();
   }
 
@@ -144,6 +184,10 @@
     statsBtn.onclick = renderStats;
     btnRow.appendChild(statsBtn);
 
+    const cheatBtn = el("button", "btn secondary", "📋 Spickzettel");
+    cheatBtn.onclick = renderCheatsheet;
+    btnRow.appendChild(cheatBtn);
+
     card.appendChild(btnRow);
     card.appendChild(
       el(
@@ -169,6 +213,15 @@
     const head = el("div", "quiz-head");
     head.innerHTML = `<span class="badge">${q.category}</span>
       <span class="progress-text">Frage ${done + 1} / ${total}</span>`;
+    const quitBtn = el("button", "btn-quit", "✕ Beenden");
+    quitBtn.title = "Quiz abbrechen und zur Startseite";
+    quitBtn.onclick = () => {
+      if (confirm("Quiz wirklich beenden? Der Fortschritt dieses Durchlaufs geht verloren.")) {
+        clearCurrent();
+        renderHome();
+      }
+    };
+    head.appendChild(quitBtn);
     card.appendChild(head);
     const bar = el("div", "progress-bar");
     bar.innerHTML = `<div class="progress-fill" style="width:${(done / total) * 100}%"></div>`;
@@ -272,6 +325,7 @@
     );
     nextBtn.onclick = () => {
       quiz.index++;
+      saveCurrent();
       if (quiz.index < quiz.questions.length) renderQuestion();
       else renderResult();
     };
@@ -292,6 +346,9 @@
       byCat[r.category].total++;
       if (r.correct) byCat[r.category].correct++;
     });
+
+    // Durchlauf ist abgeschlossen – gesicherten Zwischenstand entfernen
+    clearCurrent();
 
     // Sitzung speichern
     const sessions = loadSessions();
@@ -454,6 +511,42 @@
     app.appendChild(card);
   }
 
+  function renderCheatsheet() {
+    app.innerHTML = "";
+    const card = el("div", "card cheatsheet");
+    card.appendChild(el("h1", null, "Spickzettel: Alle Merksätze"));
+    card.appendChild(
+      el(
+        "p",
+        "subtitle no-print",
+        "Alle 64 Lernziele des Lehrplans als Merksatz – zum Durchlesen, Ausdrucken oder Abschreiben auf Karteikarten."
+      )
+    );
+
+    const btnRow = el("div", "btn-row no-print");
+    const homeBtn = el("button", "btn secondary", "← Zur Startseite");
+    homeBtn.onclick = renderHome;
+    btnRow.appendChild(homeBtn);
+    const printBtn = el("button", "btn primary", "🖨 Drucken / als PDF sichern");
+    printBtn.onclick = () => window.print();
+    btnRow.appendChild(printBtn);
+    card.appendChild(btnRow);
+
+    let currentCat = null;
+    MNEMONICS.forEach((m) => {
+      if (m.category !== currentCat) {
+        currentCat = m.category;
+        card.appendChild(el("h2", "cheat-cat", currentCat));
+      }
+      const row = el("div", "cheat-row");
+      row.innerHTML = `<span class="cheat-lo">${m.lo}</span><span class="cheat-text">${m.text}</span>`;
+      card.appendChild(row);
+    });
+
+    app.appendChild(card);
+    window.scrollTo(0, 0);
+  }
+
   function download(filename, content, mime) {
     const blob = new Blob([content], { type: mime + ";charset=utf-8" });
     const a = document.createElement("a");
@@ -463,7 +556,8 @@
     URL.revokeObjectURL(a.href);
   }
 
-  renderHome();
+  // Beim Laden: unterbrochenes Quiz fortsetzen, sonst Startseite
+  if (!tryResume()) renderHome();
 
   // Debug-Schnittstelle, z. B. _istqb.start(["B-23"]) für eine bestimmte Frage
   window._istqb = {
