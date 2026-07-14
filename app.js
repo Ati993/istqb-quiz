@@ -113,6 +113,19 @@
     renderQuestion();
   }
 
+  // Original-Prüfung: alle 40 Fragen eines Sets in Original-Reihenfolge
+  function startExam(setId) {
+    quiz = {
+      questions: QUESTIONS.filter((q) => q.set === setId).sort((a, b) => a.num - b.num),
+      index: 0,
+      results: [],
+      mode: `Prüfung SET ${setId}`,
+      selected: new Set(),
+    };
+    saveCurrent();
+    renderQuestion();
+  }
+
   // ---------- Ansichten ----------
   function renderHome() {
     quiz = null;
@@ -131,8 +144,25 @@
       )
     );
 
+    // Prüfungssimulation: ein komplettes Original-Set
+    card.appendChild(el("h2", null, "Original-Prüfung simulieren"));
+    card.appendChild(
+      el(
+        "p",
+        "subtitle",
+        "Ein komplettes offizielles Set – 40 Fragen in Original-Reihenfolge, wie in der echten Prüfung (60 Minuten, 65 % zum Bestehen)."
+      )
+    );
+    const setRow = el("div", "count-row");
+    ["A", "B", "C", "D", "E"].forEach((s) => {
+      const b = el("button", "btn set-btn", `SET ${s}`);
+      b.onclick = () => startExam(s);
+      setRow.appendChild(b);
+    });
+    card.appendChild(setRow);
+
     // Kategorien
-    card.appendChild(el("h2", null, "Kategorien (Lehrplan-Kapitel)"));
+    card.appendChild(el("h2", null, "Oder gezielt üben: Kategorien (Lehrplan-Kapitel)"));
     const catBox = el("div", "cat-grid");
     CATEGORIES.forEach((cat) => {
       const n = QUESTIONS.filter((q) => q.category === cat).length;

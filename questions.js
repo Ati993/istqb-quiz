@@ -1,7 +1,7 @@
 // Offizielle ISTQB/GTB CTFL v4.0 Probepruefungsfragen, Sets A-E (je 40 Fragen).
 // Quelle: ISTQB(R)/German Testing Board Sample Exams (Copyright ISTQB(R)).
 // Nur fuer die persoenliche Pruefungsvorbereitung.
-// Automatisch extrahiert; Merksaetze pro Lernziel ergaenzt.
+// Jede Frage zeigt den zugeschnittenen Original-PDF-Ausschnitt (images/).
 
 const QUESTIONS = [
  {
@@ -12,7 +12,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Testgrundlagen",
   "question": "Welche der folgenden Aussagen beschreibt ein erreichbares Testziel?",
-  "images": [],
+  "images": [
+   "images/A-1.png"
+  ],
   "options": [
    "Es lässt sich nachweisen, dass das zu prüfende System keine Fehlerzustände mehr hat.",
    "Es lässt sich nachweisen, dass es nach der produktiven Inbetriebnahme des Systems keine Fehlerwirkungen geben wird.",
@@ -34,7 +36,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testgrundlagen",
   "question": "Was ist der Hauptunterschied zwischen Testen und Debugging?",
-  "images": [],
+  "images": [
+   "images/A-2.png"
+  ],
   "options": [
    "Testen kann Fehlerwirkungen auslösen oder Fehlerzustände finden, während Debugging die Ursachen einer Fehlerwirkung analysiert und Fehlerzustände beseitigt.",
    "Beim Testen werden Anforderungen überprüft, während beim Debugging der Entwurf überprüft wird.",
@@ -56,7 +60,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testgrundlagen",
   "question": "Sie sind Mitglied eines Teams, das ein neues System testet. Ihnen ist aufgefallen, dass seit mehreren Iterationen keine Änderungen an den bestehenden Regressionstestfällen vorgenommen und keine neuen Fehler durch einen Regressionstest aufgedeckt wurden. Ihr Vorgesetzter ist zufrieden, aber Sie sind es nicht. Welcher Grundsatz des Testens erklärt Ihre Skepsis in dieser Situation AM BESTEN?",
-  "images": [],
+  "images": [
+   "images/A-3.png"
+  ],
   "options": [
    "Alte Tests verlieren an Wirksamkeit.",
    "Trugschluss: “Keine Fehler” bedeuten ein brauchbares System.",
@@ -78,7 +84,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testgrundlagen",
   "question": "Sie arbeiten in einem Team, das eine mobile Anwendung für Essensbestellungen entwickelt. In der aktuellen Iteration hat das Team beschlossen, die Zahlungsfunktionalität zu implementieren. Welche der folgenden Aktivitäten gehört zur Testanalyse?",
-  "images": [],
+  "images": [
+   "images/A-4.png"
+  ],
   "options": [
    "Die Aufwandsschätzung für den Test der Integration der mobilen Anwendung mit dem Zahlungsdienst durchführen.",
    "Die Entscheidung, ob getestet wird, inwieweit Zahlungen zwischen mehreren Nutzern aufgeteilt werden können.",
@@ -100,7 +108,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testgrundlagen",
   "question": "Welche der folgenden Aussagen beschreibt AM BESTEN, wie ein Mehrwert durch Etablierung und Aufrechterhaltung der Verfolgbarkeit zwischen Testbasis und den Testmitteln erzielt wird?",
-  "images": [],
+  "images": [
+   "images/A-5.png"
+  ],
   "options": [
    "Wartungstests können basierend auf Änderungen der ursprünglichen Anforderungen vollständig automatisiert werden.",
    "Es kann effizienter bestimmt werden, ob die angestrebte Ü berdeckung auch tatsächlich erreicht wurde.",
@@ -122,7 +132,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testgrundlagen",
   "question": "Welche der folgenden Aussagen vergleicht AM BESTEN die verschiedenen Rollen beim Testen?",
-  "images": [],
+  "images": [
+   "images/A-6.png"
+  ],
   "options": [
    "Die Rolle des Testens führt Testfälle aus, die Testmanagementrolle plant und überwacht die Testaktivitäten und meldet die Abweichungen an alle Tester.",
    "Die Rolle des Testens führt die Aktivitäten der Testanalyse sowie des Testentwurfs aus und erstellt und führt Testfälle aus, die Testmanagementrolle koordiniert die Testressourcen und berichtet an die Stakeholder.",
@@ -144,7 +156,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testgrundlagen",
   "question": "Welche der folgenden Aussagen erklärt AM BESTEN einen Vorteil der Unabhängigkeit des Testens?",
-  "images": [],
+  "images": [
+   "images/A-7.png"
+  ],
   "options": [
    "Der Einsatz eines unabhängigen Testteams ermöglicht es der Projektleitung, dem Testteam die Verantwortung für die Qualität des Endprodukts zu übertragen.",
    "Wenn man sich ein externes Testteam leisten kann, dann hat das den Vorteil, dass dieses externe Team nicht so leicht von den Bedenken des Projektmanagements und der Notwendigkeit, strikte Liefertermine einzuhalten, beeinflusst werden kann.",
@@ -166,7 +180,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Testgrundlagen",
   "question": "Wie zeigt sich der Whole-Team-Ansatz in der Interaktion zwischen Testern und Fachbereichsvertretern?",
-  "images": [],
+  "images": [
+   "images/A-8.png"
+  ],
   "options": [
    "Fachbereichsvertreter entscheiden gemeinsam mit der Projektleitung über die Ansätze zur Testautomatisierung.",
    "Tester helfen Fachbereichsvertretern bei der Festlegung der Teststrategie.",
@@ -188,7 +204,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Testen im SDLC",
   "question": "Welche der folgenden Aussagen beschreibt AM BESTEN eine gute Praktik für das Testen, die für alle Softwareentwicklungslebenszyklen gilt?",
-  "images": [],
+  "images": [
+   "images/A-9.png"
+  ],
   "options": [
    "Testen sollte erst nach Abschluss der Entwicklung durchgeführt werden.",
    "Testen sollte unter Federführung der Entwicklung durchgeführt werden.",
@@ -210,7 +228,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Testen im SDLC",
   "question": "Welche der folgenden Aussagen beschreibt AM BESTEN den Ansatz der abnahmetestgetriebenen Entwicklung (ATDD)?",
-  "images": [],
+  "images": [
+   "images/A-10.png"
+  ],
   "options": [
    "In der ATDD werden Akzeptanzkriterien typischerweise basierend auf dem Format GIVEN/WHEN/THEN erstellt.",
    "Bei ATDD werden zuerst entwicklernahe Tests geschrieben, danach wird Code geschrieben, um diese Tests zu erfüllen, und anschließend werden Tests und Code überarbeitet.",
@@ -232,7 +252,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testen im SDLC",
   "question": "Welche der folgenden Aussagen ist kein Beispiel für den Shift-Left- Ansatz?",
-  "images": [],
+  "images": [
+   "images/A-11.png"
+  ],
   "options": [
    "Benutzeranforderungen werden überprüft, bevor sie von den Stakeholdern formell akzeptiert werden.",
    "Komponententestfälle werden erstellt, bevor der zugehörige Code programmiert wird.",
@@ -254,7 +276,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testen im SDLC",
   "question": "Welches der folgenden Argumente ist AM BESTEN geeignet, um Ihren Vorgesetzten davon zu überzeugen, am Ende eines jeden Release zyklus eine Retrospektive durchzuführen?",
-  "images": [],
+  "images": [
+   "images/A-12.png"
+  ],
   "options": [
    "Retrospektiven sind heutzutage sehr beliebt und unsere Kunden würden es zu schätzen wissen, wenn wir sie in unsere Prozesse aufnehmen würden.",
    "Die regelmäßige Durchführung von Retrospektiven spart dem Unternehmen Geld, da die Vertreter der Endnutzer kein unmittelbares Feedback über das Produkt geben.",
@@ -276,7 +300,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testen im SDLC",
   "question": "Welche Arten von Fehler zuständen (1-4) werden in welchen Teststufen (A-D) AM EHESTEN gefunden? 1. Fehlerzustände, wenn das Systemverhalten von den geschäftlichen Anforderungen abweicht 2. Fehlerzustände in der Kommunikation zwischen Komponenten 3. Fehlerzustände in einer isolierten Komponente 4. Fehlerzustände im Gesamtverhalten des Systems bei der Umsetzung einer User-Story A. Komponententest B. Komponentenintegrationstest C. Systemtest D. Abnahmetests",
-  "images": [],
+  "images": [
+   "images/A-13.png"
+  ],
   "options": [
    "1D, 2B, 3A, 4C",
    "1D, 2B, 3C, 4A",
@@ -298,7 +324,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testen im SDLC",
   "question": "Die Teststrategie Ihres Unternehmens sieht vor, dass die Datenmigration zum Nachfolgesystem getestet werden muss, sobald ein System zur Außerbetriebnahme vorgesehen ist. Mit welcher Testaktivität wird diese Anforderung AM EHESTEN erfüllt?",
-  "images": [],
+  "images": [
+   "images/A-14.png"
+  ],
   "options": [
    "Wartungstest",
    "Regressionstest",
@@ -320,7 +348,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Statisches Testen",
   "question": "Welche der folgenden Optionen ist kein Vorteil des statischen Testens?",
-  "images": [],
+  "images": [
+   "images/A-15.png"
+  ],
   "options": [
    "Die Bewertung und Behebung der durch eine statische Analyse aufgedeckten Anomalien kann erheblichen Zeit- und Ressourcenaufwand erfordern.",
    "Die Behebung von Fehlerzuständen, die bei statischen Tests gefunden werden, ist in der Regel wesentlich kostengünstiger als die Behebung von Fehlerzuständen, die bei dynamischen Tests gefunden werden.",
@@ -342,7 +372,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Statisches Testen",
   "question": "Welcher der folgenden Punkte ist ein Vorteil von frühem und häufigem Feedback durch Stakeholder?",
-  "images": [],
+  "images": [
+   "images/A-16.png"
+  ],
   "options": [
    "Es verbessert den Testprozess für zukünftige Projekte.",
    "Es zwingt die Kunden dazu, ihre Anforderungen basierend auf den abgestimmten Risiken zu priorisieren.",
@@ -364,7 +396,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Statisches Testen",
   "question": "Die in Ihrem Unternehmen durchgeführten Reviews weisen die folgenden Eigenschaften auf: • Der Hauptzweck ist die Kommunikation oder die Schulung der Gutachter. • Die Sitzung wird vom Autor des Arbeitsergebnisses geleitet. • Es gibt eine individuelle Vorbereitung der Reviewer (Gutachter). • Ein Reviewbericht kann erstellt werden. Welche der folgenden Arten eines Reviews wird AM EHESTEN verwendet?",
-  "images": [],
+  "images": [
+   "images/A-17.png"
+  ],
   "options": [
    "Informelles Review",
    "Walkthrough",
@@ -386,7 +420,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Statisches Testen",
   "question": "Welche der folgenden Aussagen ist kein Faktor, der zu einem erfolgreichen Review beiträgt?",
-  "images": [],
+  "images": [
+   "images/A-18.png"
+  ],
   "options": [
    "Die Teilnehmer sollten sich ausreichend Zeit für das Review nehmen.",
    "Eine Aufteilung großer Arbeitsprodukte in kleine Teile wird empfohlen, damit die Reviewer (Gutachter) nicht die Konzentration verlieren.",
@@ -408,7 +444,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testanalyse und -entwurf",
   "question": "Welcher der folgenden Punkte ist ein Merkmal erfahrungsbasierter Testverfahren?",
-  "images": [],
+  "images": [
+   "images/A-19.png"
+  ],
   "options": [
    "Testfälle werden auf der Grundlage detaillierter Entwurfsinformationen erstellt.",
    "Zur Messung des Überdeckungsgrads wird die Anzahl der im Test geprüften Schnittstellen verwendet.",
@@ -430,7 +468,9 @@ const QUESTIONS = [
   "k": "K3",
   "category": "Testanalyse und -entwurf",
   "question": "Sie testen die Software für eine unbeaufsichtigte amerikanische Zapfsäule. Nachdem die Zapfpistole abgehoben und die gewünschte Kraftstoffsorte ausgewählt wurde, gibt der Kunde die gewünschte Kraftstoffmenge in Gallonen über ein Tastenfeld ein. Das Eingabefeld erlaubt numerische Werte mit einer Dezimalstelle. Pro Zapfvorgang kann zwischen 0,1 und 50,0 Gallonen getankt werden. Welche der folgenden Antworten repräsentiert eine minimale Menge von Eingabewerten, die alle gültigen und ungültigen Äquivalenzklassen für die Kraftstoffmenge überdeckt?",
-  "images": [],
+  "images": [
+   "images/A-20.png"
+  ],
   "options": [
    "0,0; 20,0; 60,0",
    "0,0; 0,1; 50,0",
@@ -452,7 +492,9 @@ const QUESTIONS = [
   "k": "K3",
   "category": "Testanalyse und -entwurf",
   "question": "Sie testen ein E-Commerce-System, das Lebensmittel wie Gewürze, Mehl und andere Artikel in großen Mengen verkauft. Die Einheiten, in denen die Artikel verkauft werden, sind entweder Gramm oder Kilogramm. Unabhängig von den Einheiten ist die kleinste gültig e Bestellmenge 0,5 Einheiten (z. B. ein halbes Gramm Kardamomkapseln) und die größte gültige Bestellmenge 25,0 Einheiten (z. B. 25 Kilogramm Zucker). Die Genauigkeit der Bestellmenge beträgt 0,1 Einheiten. Welche der folgenden Antworten enthält genau die minimale Menge von Eingabewerten, die die Überdeckungselemente der 2 -Wert- Grenzwertanalyse für die Bestellmenge vollständig abdeckt?",
-  "images": [],
+  "images": [
+   "images/A-21.png"
+  ],
   "options": [
    "0,3; 24,9; 25,2",
    "0,4; 0,5; 0,6; 24,9; 25,0; 25,1",
@@ -523,7 +565,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testanalyse und -entwurf",
   "question": "Welche der folgenden Aussagen beschreibt die Anweisungsüberdeckung?",
-  "images": [],
+  "images": [
+   "images/A-24.png"
+  ],
   "options": [
    "Es handelt sich um eine Metrik zur Berechnung und Messung des prozentualen Anteils der ausgeführten Testfälle.",
    "Es handelt sich um eine Metrik, die den prozentualen Anteil der durch Testfälle ausgeführten Anweisungen an der Gesamtzahl der ausführbaren Anweisungen im Code angibt.",
@@ -545,7 +589,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testanalyse und -entwurf",
   "question": "Welche der folgenden Aussagen trifft nicht auf White-Box-Tests zu?",
-  "images": [],
+  "images": [
+   "images/A-25.png"
+  ],
   "options": [
    "White-Box-Test ist ein Test, der auf der Analyse der internen Struktur einer Komponente oder eines Systems basiert.",
    "White-Box-Überdeckungsmetriken können helfen, zusätzliche Tests zu identifizieren, um die Codeüberdeckung zu erhöhen.",
@@ -567,7 +613,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testanalyse und -entwurf",
   "question": "Welche der folgenden Aussagen beschreibt AM BESTEN das Konzept der intuitiven Testfallermittlung?",
-  "images": [],
+  "images": [
+   "images/A-26.png"
+  ],
   "options": [
    "Bei der intuitiven Testfallermittlung nutzen Sie Ihr Wissen über und Ihre Erfahrung mit in der Vergangenheit gefundenen Fehlerzuständen und Fehlerwirkungen und typischen Fehlhandlungen von Entwicklern.",
    "Bei der intuitiven Testfallermittlung werden Ihre persönlichen Erfahrungen mit der Entwicklung und den Fehlhandlungen, die Sie als Entwickler gemacht haben, genutzt.",
@@ -589,7 +637,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testanalyse und -entwurf",
   "question": "In Ihrem Projekt hat sich die Freigabe einer brandneuen Anwendung verzögert und die Testdurchführung hat spät begonnen, aber Sie verfügen über sehr detailliertes Fachwissen und gute analytische Fähigkeiten. Die vollständige Anforderungsspezifikation wurde noch nicht an Sie weitergegeben und die Geschäftsleitung bittet um die Vorlage erster Testergebnisse. Welches Testverfahren ist in dieser Situation AM BESTEN geeignet?",
-  "images": [],
+  "images": [
+   "images/A-27.png"
+  ],
   "options": [
    "Checklistenbasiertes Testen",
    "Intuitive Testfallermittlung",
@@ -611,7 +661,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testanalyse und -entwurf",
   "question": "Welche der folgenden Aktivitäten beschreibt AM BESTEN die Art und Weise, wie A kzeptanzkriterien für eine User -Story formuliert werden können?",
-  "images": [],
+  "images": [
+   "images/A-28.png"
+  ],
   "options": [
    "Durchführung von Retrospektiven zur Ermittlung der tatsächlichen Bedürfnisse der Stakeholder in Bezug auf eine bestimmte User-Story.",
    "Verwendung des Formats GIVEN/WHEN/THEN zur Beschreibung einer beispielhaften Testbedingung im Zusammenhang mit einer bestimmten User- Story.",
@@ -633,7 +685,9 @@ const QUESTIONS = [
   "k": "K3",
   "category": "Testanalyse und -entwurf",
   "question": "Ihr Team verfolgt den Ansatz der abnahmetestgetriebenen Entwicklung (ATDD) und analysiert die folgende User-Story, um Testfälle zu erstellen. Als registrierter Kunde möchte ich meine bisherigen Bestellungen auf der Website des Unternehmens einsehen können, um einen Überblick über meine Einkäufe zu behalten. Ihr Team ermittelt die folgende Liste von Testfällen. Welcher der Testfälle ist für diese User-Story nicht relevant?",
-  "images": [],
+  "images": [
+   "images/A-29.png"
+  ],
   "options": [
    "Eingabe: Der Kunde loggt sich in sein Konto auf der Website ein und klickt auf die Schaltfläche \"Bestellhistorie anzeigen\". Erwartete Ausgabe: Das System zeigt eine Liste aller früheren Bestellungen des Kunden an, einschließlich Datum, Bestellnummer und Gesamtkosten.",
    "Eingabe: Der eingeloggte Kunde klickt in der Liste seiner Bestellungen auf eine Bestellung. Erwartete Ausgabe: Das System zeigt die einzelnen gekauften Artikel mit Preis und Menge an.",
@@ -655,7 +709,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Testmanagement",
   "question": "Wie schaffen Tester einen Mehrwert für die Iterationsplanung?",
-  "images": [],
+  "images": [
+   "images/A-30.png"
+  ],
   "options": [
    "Die Tester bestimmen die Priorität der zu entwickelnden User-Storys.",
    "Die Tester konzentrieren sich nur auf die Verfeinerung der funktionalen Aspekte des zu prüfenden Systems.",
@@ -677,7 +733,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testmanagement",
   "question": "Welche der folgenden Optionen nennt Endekriterien für den Test eines Systems?",
-  "images": [],
+  "images": [
+   "images/A-31.png"
+  ],
   "options": [
    "Testumgebung ist einsatzbereit.",
    "Anmeldung am Testobjekt durch den Tester ist möglich.",
@@ -699,7 +757,9 @@ const QUESTIONS = [
   "k": "K3",
   "category": "Testmanagement",
   "question": "Ihr Team verwendet das Drei -Punkt-Schätzungsverfahren, um den Testaufwand für eine neue, risikoreiche Funktion zu schätzen. Es wurden die folgenden Schätzungen vorgenommen: • optimistischste Schätzung: 2 Personenstunden • wahrscheinlichste Schätzung: 11 Personenstunden • pessimistischste Schätzung: 14 Personenstunden Wie lautet die endgültige Schätzung?",
-  "images": [],
+  "images": [
+   "images/A-32.png"
+  ],
   "options": [
    "9 Personenstunden",
    "10 Personenstunden",
@@ -745,7 +805,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testmanagement",
   "question": "Betrachten Sie die folgenden Tests (1-4) und Testquadranten (A-D): 1. Gebrauchstauglichkeitstest 2. Komponententest 3. Funktionaler Test 4. Zuverlässigkeitstest A. Testquadrant Q1: Technologieorientierung, Unterstützung des Teams B. Testquadrant Q2: Geschäftlich orientiert, Unterstützung des Teams C. Testquadrant Q3: Geschäftlich orientiert, kritische Betrachtung des Produkts D. Testquadrant Q4: Technologieorientierung, kritische Betrachtung des Produkts Wie lassen sich die obigen Test arten/Teststufen den Testquadranten zuordnen?",
-  "images": [],
+  "images": [
+   "images/A-34.png"
+  ],
   "options": [
    "1C, 2A, 3B, 4D",
    "1D, 2A, 3C, 4B",
@@ -767,7 +829,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testmanagement",
   "question": "Im Rahmen einer Risikoanalyse wurde das folgende Risiko ermittelt und bewertet: • Risiko: Zu lange Antwortzeit bei der Bereitstellung eines Suchergebnisses • Eintrittswahrscheinlichkeit: mittel; Schadensausmaß: hoch • Reaktion auf das Risiko: o Ein unabhängiges Testteam führt während der Systemtests einen Performanztest durch. o Eine ausgewählte Stichprobe von Endnutzern führt vor der Freigabe Alpha- und Beta-Tests durch. Welche Art von Maßnahmen wurde oben vorgeschlagen, um auf das ermittelte Risiko zu reagieren?",
-  "images": [],
+  "images": [
+   "images/A-35.png"
+  ],
   "options": [
    "Risikoakzeptanz",
    "Notfallplan",
@@ -789,7 +853,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testmanagement",
   "question": "Welche der folgenden Aussagen zum Zweck und Inhalt von Testberichten ist zutreffend?",
-  "images": [],
+  "images": [
+   "images/A-36.png"
+  ],
   "options": [
    "Testabschlussberichte werden in regelmäßigen Abständen erstellt und verteilt, um die Stakeholder hinsichtlich des Fortschrittes zu informieren.",
    "Ein Testfortschrittsbericht enthält die abschließende Bewertung der Tests und der Qualität des Produkts auf Grundlage der Endekriterien.",
@@ -811,7 +877,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testmanagement",
   "question": "Sie müssen eines der automatisierten Testskripte aktualisieren, um es an eine neue Anforderung anzupassen. Welcher Prozess schreibt vor, dass Sie eine neue Version des Testskripts in der Versionsverwaltung erstellen?",
-  "images": [],
+  "images": [
+   "images/A-37.png"
+  ],
   "options": [
    "Management der Verfolgbarkeit",
    "Wartungstest",
@@ -857,7 +925,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testwerkzeuge",
   "question": "Welche Testaktivitäten unterstützt ein Werkzeug zur Erstellung von Testdaten?",
-  "images": [],
+  "images": [
+   "images/A-39.png"
+  ],
   "options": [
    "Testüberwachung und Teststeuerung",
    "Testanalyse und Testentwurf",
@@ -879,7 +949,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Testwerkzeuge",
   "question": "Welcher Punkt ist ein mögliches Risiko bei der Testautomatisierung?",
-  "images": [],
+  "images": [
+   "images/A-40.png"
+  ],
   "options": [
    "Es kann zu unbekannten Nebenwirkungen im operativen Betrieb kommen.",
    "Es bestehen unrealistische Erwartungen hinsichtlich der Funktionalität eines Werkzeugs.",
@@ -901,7 +973,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testgrundlagen",
   "question": "Welche der folgenden Aussagen beschreibt AM BESTEN, warum Testen im Softwareentwicklungslebenszyklus notwendig ist?",
-  "images": [],
+  "images": [
+   "images/B-1.png"
+  ],
   "options": [
    "Dynamisches Testen ist die einzige Möglichkeit, die Qualität eines Testobjekts zu bewerten.",
    "Das Testen stellt sicher, dass die Benutzer die Bedürfnisse der Entwickler verstehen und nachvollziehen können.",
@@ -923,7 +997,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Testgrundlagen",
   "question": "Was ist der Unterschied zwischen Testen und Qualitätssicherung?",
-  "images": [],
+  "images": [
+   "images/B-2.png"
+  ],
   "options": [
    "Testen ist ein prozessorientierter, präventiver Ansatz, während Qualitätssicherung ein produktorientierter, korrigierender Ansatz ist.",
    "Qualitätssicherung ist prozessorientiert und zielt auf deren Verbesserung, während Testen durch produktorientierte Maßnahmen auf angemessene Qualität zielt.",
@@ -945,7 +1021,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testgrundlagen",
   "question": "Ein Tester hat über einen Zeitraum von 5 Jahren Softwareanwendungen auf mobilen Geräten getestet. Über einen langen Zeitraum hat der Tester die bestehenden Testfälle nicht verändert und auch keine neuen Testfälle erstellt. Bei neueren Versionen der mobilen Plattform sind mehr Fehlerwirkungen von den Nutzern gemeldet worden. Welchen Grundsatz des Testens hat der Tester nicht beachtet?",
-  "images": [],
+  "images": [
+   "images/B-3.png"
+  ],
   "options": [
    "Testen ist abhängig vom Umfeld.",
    "Vollständiges Testen ist nicht möglich.",
@@ -967,7 +1045,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testgrundlagen",
   "question": "Betrachten Sie das folgende Testmittel: Test-Charta #04.018 Sitzungsdauer: 1h Erforsche die Registrierungsseite Mit verschiedenen fehlerhaften Eingabesätzen Zu entdecken Fehler beim Registrierungsvorgang bei fehlerhaften Eingaben In welcher Testaktivität wird dieses Testmittel erstellt?",
-  "images": [],
+  "images": [
+   "images/B-4.png"
+  ],
   "options": [
    "Testplanung",
    "Testüberwachung und Teststeuerung",
@@ -989,7 +1069,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testgrundlagen",
   "question": "Welcher der folgenden Aspekte beeinflusst AM EHESTEN die Durchführung von Tests für ein bestimmtes Testobjekts?",
-  "images": [],
+  "images": [
+   "images/B-5.png"
+  ],
   "options": [
    "Die durchschnittliche Erfahrung des Marketingteams des Unternehmens.",
    "Das Wissen der Benutzer, dass ein neues System für sie entwickelt wird.",
@@ -1011,7 +1093,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testgrundlagen",
   "question": "Beachten Sie die folgenden Testaktivitäten: 1. Auswählen von Regressionstests 2. Bewertung der Vollständigkeit der Testdurchführung 3. Identifizieren, welche User-Storys offene Fehlerberichte haben 4. Bewertung, ob die Qualität und Anzahl der Tests für jede Anforderung mit dem Grad des Produktrisikos vereinbar sind Betrachten Sie die folgenden Möglichkeiten, wie die Verfolgbarkeit beim Testen helfen kann: A. Verbessern der Verständlichkeit von Teststatusberichten, um den Status der Elemente der Testbasis einzubeziehen B. Testaktivitäten nachvollziehbarer/prüfbarer machen C. Bereitstellung von Informationen zur Beurteilung der Prozessqualität D. Analysieren der Auswirkungen von Änderungen Welche der folgenden Zuordnungen passt AM BESTEN zu den aufgeführten Testaktivität en und den Möglichkeiten, wie \"die Verfolgbarkeit\" diese Aktivitäten jeweils unterstützen kann?",
-  "images": [],
+  "images": [
+   "images/B-6.png"
+  ],
   "options": [
    "1D, 2B, 3C, 4A",
    "1B, 2D, 3A, 4C",
@@ -1033,7 +1117,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testgrundlagen",
   "question": "Sie sind Teil eines Testteams, das an der Entwicklung eines Steuerungssystems eines Hubschraubers beteiligt ist. Kürzlich wurde ein erfahrener Hubschrauberpilot als Tester für das Testteam eingestellt. Welche positiven Auswirkungen werden die allgemeinen Kompetenzen des neuen Testers vermutlich AM EHESTEN auf das Testteam haben?",
-  "images": [],
+  "images": [
+   "images/B-7.png"
+  ],
   "options": [
    "Die Anwendung der 3-Wert-Grenzwertanalyse für einen gründlicheren Testentwurf im Systemtest.",
    "Inkonsistenzen und Ungenauigkeiten in den fachlichen Anforderungen werden effektiv aufgedeckt.",
@@ -1055,7 +1141,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Testgrundlagen",
   "question": "Welche der folgenden Aussagen beschreibt einen Vorteil des Whole - Team-Ansatzes (Whole Team Approach)?",
-  "images": [],
+  "images": [
+   "images/B-8.png"
+  ],
   "options": [
    "Er ermöglicht es den Teammitgliedern, jederzeit jede Rolle zu übernehmen.",
    "Es wird nur ein Team benötigt, um das gesamte Entwicklungsprojekt zu unterstützen.",
@@ -1077,7 +1165,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testen im SDLC",
   "question": "Welche der folgenden Aussagen über d ie Wahl des Softwareentwicklungslebenszyklus und dessen Beziehung zum Testen ist KORREKT?",
-  "images": [],
+  "images": [
+   "images/B-9.png"
+  ],
   "options": [
    "In der agilen Softwareentwicklung ersetzt die Automatisierung von Systemtests die Notwendigkeit von Regressionstests.",
    "Wenn ein sequenzielles Entwicklungsmodell verwendet wird, wird das dynamische Testen typischerweise in einer späteren Phase des Lebenszyklus durchgeführt.",
@@ -1099,7 +1189,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Testen im SDLC",
   "question": "Welche der folgenden Optionen ist eine gute Testpraktik, unabhängig vom gewählten Modell des Softwareentwicklungslebenszyklus ist?",
-  "images": [],
+  "images": [
+   "images/B-10.png"
+  ],
   "options": [
    "Tester sollten die Arbeitsergebnisse einer Entwicklungsphase in der nächsten Entwicklungsphase überprüfen.",
    "Tester sollten mit der Überprüfung der Arbeitsergebnisse einer Softwareentwicklungsaktivität beginnen, sobald Entwürfe verfügbar sind.",
@@ -1121,7 +1213,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Testen im SDLC",
   "question": "Welches der folgenden Beispiele ist ein Test -First-Ansatz für die Entwicklung?",
-  "images": [],
+  "images": [
+   "images/B-11.png"
+  ],
   "options": [
    "Testgetriebene Entwicklung",
    "Überdeckungsgetriebene Entwicklung",
@@ -1143,7 +1237,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testen im SDLC",
   "question": "Welche der folgenden Aussagen trifft auf DevOps zu?",
-  "images": [],
+  "images": [
+   "images/B-12.png"
+  ],
   "options": [
    "Um Releases zu beschleunigen, wird kontinuierliche Integration eingesetzt, die es den Entwicklern ermöglicht, Code schnell und ohne Komponententests auszuliefern.",
    "Um Systeme schneller zu aktualisieren und freigeben zu können, nutzt die DevOps-Lieferkette Automatisierung, um zeitaufwendige manuelle Regressionstests zu reduzieren.",
@@ -1165,7 +1261,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testen im SDLC",
   "question": "Welche der folgenden Maßnahmen werden im Rahmen von Systemtests AM EHESTEN durchgeführt?",
-  "images": [],
+  "images": [
+   "images/B-13.png"
+  ],
   "options": [
    "End-to-End-Tests der IT-Sicherheit eines Kreditmanagementsystems durch ein unabhängiges Testteam",
    "Test des Zusammenwirkens eines Geldwechselsystems mit einer externen Bank oder mit dem System einer externen Bank",
@@ -1187,7 +1285,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testen im SDLC",
   "question": "Welche der folgenden Entscheidungen sollte KEIN Auslöser für Wartungstests sein?",
-  "images": [],
+  "images": [
+   "images/B-14.png"
+  ],
   "options": [
    "Die Entscheidung, die Wartbarkeit der Software zu testen.",
    "Die Entscheidung, das System nach der Migration auf eine neue Betriebsplattform zu testen.",
@@ -1209,7 +1309,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Statisches Testen",
   "question": "Welche der folgenden Aussagen beschreibt AM BESTEN den Einsatz von statischen Tests?",
-  "images": [],
+  "images": [
+   "images/B-15.png"
+  ],
   "options": [
    "Statisches Testen kann Fehlerzustände aufdecken, die durch dynamisches Testen nicht gefunden werden können.",
    "Fehlerzustände im Code können durch dynamische Tests effizienter gefunden werden als durch statische Tests.",
@@ -1231,7 +1333,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Statisches Testen",
   "question": "Welche der folgenden Aussagen beschreibt einen Vorteil von frühem und häufigem Stakeholder-Feedback?",
-  "images": [],
+  "images": [
+   "images/B-16.png"
+  ],
   "options": [
    "Es hilft dem Projektmanagement, weniger produktive Entwickler frühzeitig zu erkennen.",
    "Es reduziert die Notwendigkeit häufiger Interaktionen zwischen Projektmanagern und Stakeholdern.",
@@ -1253,7 +1357,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Statisches Testen",
   "question": "Die folgenden Aufgaben des Reviewprozesses werden beschrieben: 1. Die zu bewertenden Qualitätsmerkmale und die Endekriterien werden festgelegt. 2. Das Arbeitsergebnis wird allen Beteiligten zugänglich gemacht. 3. Anomalien im Arbeitsergebnis werden identifiziert. 4. Anomalien werden analysiert und diskutiert. Ordnen Sie diese Aufgabenbeschreibungen den folgenden Review - Aktivitäten zu: A. Individuelles Review B. Reviewbeginn C. Planung D. Kommunikation und Analyse Welche der folgenden Zuordnungen von Aufgabe n zu Aktivität en ist KORREKT?",
-  "images": [],
+  "images": [
+   "images/B-17.png"
+  ],
   "options": [
    "1B, 2C, 3D, 4A",
    "1B, 2D, 3C, 4A",
@@ -1275,7 +1381,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Statisches Testen",
   "question": "Der generische Review prozess kennt u nter anderem die folgenden Rollen: 1. Protokollant 2. Reviewleiter 3. Moderator 4. Manager Im Rahmen von Reviews können diese Rollen folgende Verantwortlichkeiten übernehmen: A. Sorgt für die effektive Durchführung von Review sitzungen, einschließlich einer geschützten Reviewumgebung B. Zeichnet Reviewinformationen auf, z. B. Entscheidungen und neue Anomalien, die während der Reviewsitzung gefunden wurden C. Entscheidet, was geprüft werden soll , und stellt Ressourcen wie Personal und Zeit für das Review zur Verfügung D. Übernimmt die Gesamtverantwortung für das Review, z. B. die Organisation, wann und wo das Review stattfindet Welche der folgenden Zuordnungen von Rollen zu Verantwortlichkeiten ist KORREKT?",
-  "images": [],
+  "images": [
+   "images/B-18.png"
+  ],
   "options": [
    "1A, 2B, 3D, 4C",
    "1A, 2C, 3B, 4D",
@@ -1321,7 +1429,9 @@ const QUESTIONS = [
   "k": "K3",
   "category": "Testanalyse und -entwurf",
   "question": "Die Kunden der Autowaschanlage TestWash haben Karten, auf denen die Anzahl der bisher gekauften Wäschen gespeichert ist. Der Anfangswert des Zählers ist 0. Bei der Einfahrt in die Waschanlage erhöht das System den Zähler auf der Karte um eins. Dieser Wert stellt die Anzahl der aktuellen Wäschen dar. Anhand der Anzahl der Wäschen entscheidet das System, welchen Rabatt der Kunde erhält. Für jede zehnte Wäsche gewährt das System einen Rabatt von 10 % und für jede zwanzigste W äsche gewährt das System einen weiteren Rabatt von 40 % (d. h. insgesamt 50 % Rabatt). Welche der folgenden Eingaben ( bezogen auf die Anzahl der Wäschen) erreicht die höchste Überdeckung der Äquivalenzklassen?",
-  "images": [],
+  "images": [
+   "images/B-20.png"
+  ],
   "options": [
    "19, 20, 30",
    "11, 12, 20",
@@ -1343,7 +1453,9 @@ const QUESTIONS = [
   "k": "K3",
   "category": "Testanalyse und -entwurf",
   "question": "Ein Weinlagerungssystem verwendet ein Kontrollgerät, das die Temperatur (T) des Weinlagers (gemessen in °C, gerundet auf das nächste Grad) misst und den Benutzer alarmiert, wenn die optimale Temperatur über- oder unterschritten wird: • Wenn 11 <= T <= 13, meldet das System: \"Optimale Temperatur\" • Wenn T < 11 ist, meldet das System: \"Die Temperatur ist zu niedrig!\" • Wenn T > 13 ist, meldet das System: \"Die Temperatur ist zu hoch!\" Sie verwenden die 3-Wert-Grenzwertanalyse, um das erwartete Verhalten des Reglers zu überprüfen. Die Testeingabe ist eine vom Gerät gelieferte Temperatur in °C. Welche Testeingaben ergeben eine 100 %ige Überdeckung?",
-  "images": [],
+  "images": [
+   "images/B-21.png"
+  ],
   "options": [
    "11, 12, 13",
    "9, 13, 15",
@@ -1413,7 +1525,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testanalyse und -entwurf",
   "question": "Sie führen zwei Testfälle, T1 und T2, für denselben Code aus. Testfall T1 erreicht eine Anweisungsüberdeckung von 40 % und Testfall T2 erreicht eine Anweisungsüberdeckung von 65 %. Welche der folgenden Aussagen ist aufgrund der obigen Informationen KORREKT?",
-  "images": [],
+  "images": [
+   "images/B-24.png"
+  ],
   "options": [
    "Die Testsuite, bestehend aus den Testfällen T1 und T2, erreicht eine Anweisungsüberdeckung von 105 %.",
    "Mindestens eine Anweisung wurde sowohl von T1 als auch von T2 ausgeführt.",
@@ -1435,7 +1549,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testanalyse und -entwurf",
   "question": "Die Formel für die Zweigüberdeckungsmetrik ist definiert als ZÜ = (X / Y) * 100 %. Was bedeuten X und Y in dieser Formel?",
-  "images": [],
+  "images": [
+   "images/B-25.png"
+  ],
   "options": [
    "X = Anzahl der von den Testfällen ausgeführten Entscheidungsergebnisse Y = Gesamtzahl der Entscheidungsergebnisse im Code",
    "X = Anzahl der durch die Testfälle ausgeführten bedingten Zweige Y = Gesamtzahl der Zweige im Code",
@@ -1457,7 +1573,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testanalyse und -entwurf",
   "question": "Welche der folgenden Aussagen liefert die BESTE Begründung für den effektiven Einsatz explorativer Tests?",
-  "images": [],
+  "images": [
+   "images/B-26.png"
+  ],
   "options": [
    "Die bestehende Teststrategie fordert, dass die Tester Black-Box- Testverfahren verwenden.",
    "Die Spezifikation ist in einer formalen Sprache geschrieben, die von einem Werkzeug verarbeitet werden kann.",
@@ -1479,7 +1597,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testanalyse und -entwurf",
   "question": "Welches ist das BESTE Beispiel für eine Testbedingung bei der Verwendung von checklistenbasierten Tests?",
-  "images": [],
+  "images": [
+   "images/B-27.png"
+  ],
   "options": [
    "„Der Entwickler hat bei der Implementierung des Codes eine Fehlhandlung gemacht.“",
    "„Die erreichte Anweisungsüberdeckung ist größer als 85 %.“",
@@ -1501,7 +1621,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testanalyse und -entwurf",
   "question": "Betrachten Sie das folgende Akzeptanzkriterium für eine User-Story, das aus der Perspektive eines Online-Shop-Inhabers geschrieben wurde. Angenommen, der Benutzer ist eingeloggt und befindet sich auf der Startseite: Wenn der Benutzer auf die Schaltfläche „Artikel hinzufügen“ klickt, Dann sollte das Formular „Artikel anlegen“ erscheinen, Und der Benutzer sollte in der Lage sein, einen Namen und einen Preis für den neuen Artikel einzugeben. In welchem Format ist dieses Akzeptanzkriterium geschrieben?",
-  "images": [],
+  "images": [
+   "images/B-28.png"
+  ],
   "options": [
    "Regelorientiert",
    "Szenarioorientiert",
@@ -1523,7 +1645,9 @@ const QUESTIONS = [
   "k": "K3",
   "category": "Testanalyse und -entwurf",
   "question": "Bitte betrachten Sie die folgende User-Story: „Als Trainer einer Fußballmannschaft möchte ich die Spielberechtigungsliste im DFBNET für einen Spieltag abrufen können, damit ich den Kader für den nächsten Spieltag zusammenstellen kann.“ Welcher Testfall eignet sich AM BESTEN für eine abnahmetestgetriebene Entwicklung der User-Story?",
-  "images": [],
+  "images": [
+   "images/B-29.png"
+  ],
   "options": [
    "Login als Trainer ins DFBNET; wähle die nächsten Spieltage für meine Mannschaft aus; lade die Spielberechtigungslisten.",
    "GEGEBEN: Ich bin als Trainer im DFBNET mit meiner Trainerkennung angemeldet UND GEGEBEN: Ich habe den nächsten Spieltag ausgewählt, WENN ich „Spielberechtigungsliste laden“ auswähle, DANN wird mir eine Liste der spielberechtigten Spieler für den nächsten Spieltag angezeigt.",
@@ -1545,7 +1669,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testmanagement",
   "question": "Ihr Team folgt einem Prozess, der eine kontinuierliche Integrations - und Auslieferungspipeline (CI/CD) mit einem Shift-Left-Ansatz verwendet. Die ersten drei Schritte dieses Prozesses sind: (1) Entwicklung und Bereitstellung des Codes (2) Übergabe des Codes an das Versionskontrollsystem und Integration des Codes in den Branch „Test“ (3) Durchführen des automatisierten Komponententests des übergebenen Codes Welches der folgenden Kriterien eignet sich AM BESTEN als Eingangskriterium für Schritt (2) dieser Pipeline?",
-  "images": [],
+  "images": [
+   "images/B-30.png"
+  ],
   "options": [
    "Die statische Analyse meldet für den übermittelten Code keine Fehler und keine Warnungen mit hohem Schweregrad.",
    "Die Versionskontrolle meldet keine Konflikte beim Kompilieren und Integrieren des Codes in den „Test“-Zweig.",
@@ -1567,7 +1693,9 @@ const QUESTIONS = [
   "k": "K3",
   "category": "Testmanagement",
   "question": "Sie möchten den Testaufwand für ein neues Projekt mit Hilfe einer auf Kennzahlen basierenden Schätzung abschätzen. Sie berechnen das Verhältnis von Testaufwand zu Entwicklungsaufwand, indem Sie die Durchschnittsdaten sowohl für den Entwicklungs - als auch für den Testaufwand aus vier historischen Projekten verwenden, die dem neuen Projekt ähnlich sind. Die Tabelle zeigt unten diese historischen Daten. Projekt Entwicklungskosten (€) Testaufwand (€) P1 800.000 40.000 P2 1.200.000 130.000 P3 600.000 70.000 P4 1.000.000 120.000 Der geschätzte Entwicklungsaufwand für das neue Projekt beträgt 800.000 €. Wie hoch schätzen Sie den Testaufwand in diesem Projekt ein?",
-  "images": [],
+  "images": [
+   "images/B-31.png"
+  ],
   "options": [
    "40.000 €",
    "80.000 €",
@@ -1613,7 +1741,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testmanagement",
   "question": "Welches der folgenden Elemente wird im Testquadrantenmodell dem Testquadranten Q1 („technologieorientiert“ und „Unterstützung des Teams“) zugeordnet?",
-  "images": [],
+  "images": [
+   "images/B-33.png"
+  ],
   "options": [
    "Gebrauchstauglichkeitstests",
    "Smoke-Tests",
@@ -1635,7 +1765,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testmanagement",
   "question": "Welche Aussage im Zusammenhang mit dem Risikomanagement beschreibt die Beziehung zwischen Produktrisiko und Testplanung NICHT genau?",
-  "images": [],
+  "images": [
+   "images/B-34.png"
+  ],
   "options": [
    "Die potenziellen Auswirkungen von IT-Sicherheitsschwachstellen wurden als signifikant hoch bewertet, so dass das Endekriterium für den IT- Sicherheitstest auf 99 bestandene Testfälle erhöht wurde.",
    "Die geforderte Qualität des Netzwerkmoduls ist unklar, was zu weiteren Risikoanalysen in diesem Bereich führen wird.",
@@ -1657,7 +1789,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Testmanagement",
   "question": "Welche der folgenden Kennzahlen ist eine Produktqualitätsmetrik?",
-  "images": [],
+  "images": [
+   "images/B-35.png"
+  ],
   "options": [
    "Mittlere Betriebsdauer bis zum Ausfall (Mean time to Failure)",
    "Anzahl der aufgedeckten Fehlerzustände",
@@ -1679,7 +1813,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testmanagement",
   "question": "Stellen Sie sich vor, Sie sind Mitglied eines Testteams in Europa und entwickeln ein Produkt für einen Kunden in Nordamerika. Das Team arbeitet nach dem DevOps -Ansatz und verwendet eine Pipeline für kontinuierliche Integration und kontinuierliche Bereitstellung für die Entwicklung. Welche der folgenden Kommunikationsmethoden wäre angesichts der geografischen Entfernung und des agilen Charakters des Projekts AM WENIGSTEN effektiv, um den Testfortschritt an den Kunden zu übermitteln?",
-  "images": [],
+  "images": [
+   "images/B-36.png"
+  ],
   "options": [
    "Persönliche Treffen (von Angesicht zu Angesicht)",
    "Interaktive Dashboards",
@@ -1701,7 +1837,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testmanagement",
   "question": "Welche der folgenden Aussagen beschreibt ein Beispiel dafür, wie Konfigurationsmanagement (KM) das Testen unterstützt?",
-  "images": [],
+  "images": [
+   "images/B-37.png"
+  ],
   "options": [
    "Über die Versionsnummer der Testumgebung und die gespeicherten Beziehungen kann das KM-Werkzeug die Versionsnummern der in dieser Umgebung verwendeten Bibliotheken, Platzhalter und Treiber abrufen.",
    "Die Änderung von Baselines wird durch KM-Werkzeuge flexibel und pragmatisch unterstützt, wenn die Tester dies aufgrund unerwarteter Ereignisse während der Testdurchführung für notwendig erachten.",
@@ -1747,7 +1885,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testwerkzeuge",
   "question": "Berücksichtigen Sie die folgenden Beschreibungen: 1. Unterstützung der Verfolgung von Arbeitsabläufen 2. Kommunikation erleichtern 3. Virtuelle Maschinen 4. Unterstützung von Auswertungen bei Reviews und die folgenden Kategorien von Testwerkzeugen: A. Statische Testwerkzeuge B. Werkzeuge zur Unterstützung der Skalierbarkeit und Standardisierung der Bereitstellung C. DevOps-Werkzeuge D. Werkzeuge für die Zusammenarbeit Welche der folgenden Optionen ordnet die Beschreibungen und Kategorien AM BESTEN einander zu?",
-  "images": [],
+  "images": [
+   "images/B-39.png"
+  ],
   "options": [
    "1A, 2B, 3C, 4D",
    "1B, 2D, 3C, 4A",
@@ -1769,7 +1909,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Testwerkzeuge",
   "question": "Welcher der folgenden Vorteile trifft AM EHESTEN auf die Testautomatisierung zu?",
-  "images": [],
+  "images": [
+   "images/B-40.png"
+  ],
   "options": [
    "Die Testautomatisierung ermöglicht auch die Messung komplexerer Überdeckungskriterien.",
    "Durch die Testautomatisierung wird ein Teil der Verantwortung für das Testen dem Werkzeuganbieter übertragen.",
@@ -1791,7 +1933,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Testgrundlagen",
   "question": "Welche der folgenden Optionen stellt ein typisches Testziel dar?",
-  "images": [],
+  "images": [
+   "images/C-1.png"
+  ],
   "options": [
    "Validieren, ob die dokumentierten Anforderungen erfüllt sind.",
    "Auslösen von Fehlerwirkungen und Finden von Fehlerzuständen.",
@@ -1813,7 +1957,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testgrundlagen",
   "question": "Welche der folgenden Aussagen beschreibt den Unterschied zwischen Testen und Debugging AM BESTEN?",
-  "images": [],
+  "images": [
+   "images/C-2.png"
+  ],
   "options": [
    "Beim Testen wird die Ursache von Fehlerzuständen identifiziert, während beim Debugging die Fehlerzustände analysiert und behoben werden.",
    "Testen ist eine negative Aktivität, während Debugging eine positive Aktivität ist.",
@@ -1835,7 +1981,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testgrundlagen",
   "question": "Ein Grundsatz des Testens lautet: „Der Trugschluss, dass ein fehlerfreies System auch automatisch brauchbar ist, muss vermieden werden.“ Welches der folgenden Beispiele zeigt, wie dieser Grundsatz in der Praxis berücksichtigt wird?",
-  "images": [],
+  "images": [
+   "images/C-3.png"
+  ],
   "options": [
    "Darauf hinweisen, dass Testen niemals die Abwesenheit von Fehlern beweisen kann.",
    "Die Endnutzer bei der Durchführung von Abnahmetests unterstützen.",
@@ -1857,7 +2005,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testgrundlagen",
   "question": "Bei welchen der folgenden Testaktivitäten werden typischerweise die Testverfahren der Grenzwertanalyse und der Äquivalenz klassenbildung angewendet?",
-  "images": [],
+  "images": [
+   "images/C-4.png"
+  ],
   "options": [
    "Testrealisierung",
    "Testentwurf",
@@ -1881,7 +2031,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testgrundlagen",
   "question": "Gegeben sind folgende Testaktivitäten: A. Testanalyse B. Testentwurf C. Testrealisierung D. Testabschluss Und folgende Testmittel: 1. Überdeckungselemente 2. Änderungsanträge 3. Testausführungsplan 4. Priorisierte Testbedingungen Welche der folgenden Aussagen beschreibt die Zuordnung von Testaktivität zu erzeugtem Testmittel AM ZUTREFFENDSTEN?",
-  "images": [],
+  "images": [
+   "images/C-5.png"
+  ],
   "options": [
    "1B, 2D, 3C, 4A",
    "1B, 2D, 3A, 4C",
@@ -1903,7 +2055,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testgrundlagen",
   "question": "Welche der folgenden Aussagen über Testrollen in der agilen Softwareentwicklung trifft AM ZUTREFFENDSTEN zu?",
-  "images": [],
+  "images": [
+   "images/C-6.png"
+  ],
   "options": [
    "In agilen Teams liegt das Testmanagement hauptsächlich beim Team, während das Testen überwiegend von externen Spezialisten durchgeführt wird.",
    "Die operative Rolle des Testens übernimmt vor allem die Testüberwachung und Teststeuerung, während das Testmanagement für Planung und Durchführung zuständig ist.",
@@ -1925,7 +2079,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Testgrundlagen",
   "question": "Was ist ein typischer Vorteil des ganzheitlichen Teamansatzes (Whole- Team-Ansatz) in agilen Projekten?",
-  "images": [],
+  "images": [
+   "images/C-7.png"
+  ],
   "options": [
    "Das Team arbeitet ohne dedizierte Tester.",
    "Die Teamdynamik wird verbessert.",
@@ -1947,7 +2103,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testgrundlagen",
   "question": "Welche der folgenden Aussagen zur Unabhängigkeit des Testens trifft AM EHESTEN zu?",
-  "images": [],
+  "images": [
+   "images/C-8.png"
+  ],
   "options": [
    "Unabhängige Tester entdecken häufig Fehler, weil sie mit einer anderen Perspektive als die Entwickler testen – diese Unabhängigkeit kann jedoch zu Spannungen im Team führen.",
    "Entwickler finden nur wenige Fehler in ihrem eigenen Code, und Tester mit ähnlichem Hintergrund sind beim Finden derselben Fehler ebenfalls eingeschränkt.",
@@ -1969,7 +2127,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Testen im SDLC",
   "question": "Welche der folgenden Aussagen beschreibt eine gute Testpraxis, die unabhängig vom gewählten Softwareentwicklungslebenszyklus gilt?",
-  "images": [],
+  "images": [
+   "images/C-9.png"
+  ],
   "options": [
    "Jeder Teststufe ist eine bestimmte Entwicklungsstufe direkt zugeordnet.",
    "Jedes Testziel entspricht einem bestimmten Entwicklungsziel.",
@@ -1991,7 +2151,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Testen im SDLC",
   "question": "Welcher der folgenden Ansätze ist ein Beispiel für einen Test-First-Ansatz in der Entwicklung?",
-  "images": [],
+  "images": [
+   "images/C-10.png"
+  ],
   "options": [
    "Feature-getriebene Entwicklung",
    "Integrationstestgetriebene Entwicklung",
@@ -2013,7 +2175,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testen im SDLC",
   "question": "Welche der folgenden Aussagen beschreibt Shift -Left im Softwaretesten AM ZUTREFFENDSTEN?",
-  "images": [],
+  "images": [
+   "images/C-11.png"
+  ],
   "options": [
    "Manuelle Tests werden nach Zustimmung der Entwickler automatisiert, um Zeit und Kosten zu sparen.",
    "Testaktivitäten werden möglichst früh im Entwicklungsprozess eingeplant, um Fehlerzustände früher zu finden und spätere Qualitätskosten zu senken.",
@@ -2035,7 +2199,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testen im SDLC",
   "question": "Welches der folgenden Ergebnisse ist im Rahmen einer Retrospektive AM WENIGSTEN wahrscheinlich?",
-  "images": [],
+  "images": [
+   "images/C-12.png"
+  ],
   "options": [
    "Die Qualität künftiger Testobjekte wird verbessert, weil Schwächen in den Entwicklungspraktiken erkannt werden.",
    "Die Testeffizienz steigt, weil Testumgebungen künftig automatisiert werden.",
@@ -2057,7 +2223,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testen im SDLC",
   "question": "In welcher Teststufe stehen Validierung und der Nachweis der Einsatzfähigkeit im Vordergrund, und die Tests sollten idealerweise von den vorgesehenen Benutzern durchgeführt werden?",
-  "images": [],
+  "images": [
+   "images/C-13.png"
+  ],
   "options": [
    "Komponententest",
    "Komponentenintegrationstest",
@@ -2079,7 +2247,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testen im SDLC",
   "question": "Nach einem Software-Update schlägt das Navigationssystem beispielsweise Routen durch Einbahnstraßen in der falschen Richtung vor, was einen klaren Verstoß gegen die Verkehrsregeln darstellt. Nachdem der zugrunde liegende Fehlerzustand korrigiert wurde, stellen sich folgende Fragen: Welche der folgenden Maßnahmen sind in diesem Fall AM SINNVOLLSTEN?",
-  "images": [],
+  "images": [
+   "images/C-14.png"
+  ],
   "options": [
    "Nur Fehlernachtests",
    "Fehlernachtests gefolgt von Regressionstests",
@@ -2101,7 +2271,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Statisches Testen",
   "question": "Welche der folgenden Beispiele beschreiben Fehlerzustände, die typischerweise durch statische Tests – im Unterschied zu dynamischen Tests – erkannt werden können?",
-  "images": [],
+  "images": [
+   "images/C-15.png"
+  ],
   "options": [
    "Widersprüche zwischen verschiedenen Teilen der Entwurfsspezifikation",
    "Längere Antwortzeiten, die zur Frustration der Benutzer führen",
@@ -2125,7 +2297,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Statisches Testen",
   "question": "Welcher der folgenden Punkte ist ein typischer Vorteil von frühem und häufigem Stakeholder-Feedback?",
-  "images": [],
+  "images": [
+   "images/C-16.png"
+  ],
   "options": [
    "Änderungen an Anforderungen werden früher verstanden und können früher umgesetzt werden.",
    "Geschäftsinteressenten erhalten eine Schulung zu den Benutzeranforderungen.",
@@ -2147,7 +2321,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Statisches Testen",
   "question": "Ordnen Sie die folgenden Reviewarten den entsprechenden Beschreibungen zu: 1. Technisches Review 2. Informelles Review 3. Inspektion 4. Walkthrough A. Zielt unter Leitung des Autors u.a. auf Vertrauen saufbau, Ideengenerierung und Schulung von Gutachtern. B. Dient hauptsächlich der Aufdeckung von Anomalien und erfordert keine formale Dokumentation. C. Ziel ist es, möglichst viele Anomalien zu finden und Metriken für die Prozessverbesserung zu erheben. D. Zielt darauf ab, durch technisch qualifizierte Gutachter Konsens zu erreichen, Entscheidungen zu treffen und neue Ideen zu entwickeln. Welche der folgenden Optionen beschreibt die korrekte Zuordnung AM BESTEN?",
-  "images": [],
+  "images": [
+   "images/C-17.png"
+  ],
   "options": [
    "1A, 2B, 3C, 4D",
    "1D, 2B, 3C, 4A",
@@ -2169,7 +2345,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Statisches Testen",
   "question": "Welcher der folgenden Faktoren trägt typischerweise zum Erfolg eines Reviews bei?",
-  "images": [],
+  "images": [
+   "images/C-18.png"
+  ],
   "options": [
    "Das Management wird als Gutachter in alle Reviews eingebunden.",
    "Große Arbeitsergebnisse werden in kleinere, überschaubare Einheiten aufgeteilt.",
@@ -2191,7 +2369,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testanalyse und -entwurf",
   "question": "Was ist der zentrale Unterschied zwischen Black -Box-Verfahren und erfahrungsbasierten Testverfahren?",
-  "images": [],
+  "images": [
+   "images/C-19.png"
+  ],
   "options": [
    "Das getestete Objekt",
    "Die Teststufe, auf der das Testverfahren angewendet wird.",
@@ -2213,7 +2393,9 @@ const QUESTIONS = [
   "k": "K3",
   "category": "Testanalyse und -entwurf",
   "question": "Ein PIN -Validator akzeptiert nur gültige PINs und lehnt ungültige ab. Betrachtet werden ausschließlich Eingaben, die aus Ziffern bestehen. Eine PIN gilt als gültig, wenn sie aus genau vier Ziffern besteht, von denen mindestens zwei unterschiedlich sind. Welche der folgenden Datensätze deckt alle relevanten Äquivalenzklassen ab?",
-  "images": [],
+  "images": [
+   "images/C-20.png"
+  ],
   "options": [
    "112, 1111, 1234, 123456",
    "1, 123, 1111, 1234",
@@ -2235,7 +2417,9 @@ const QUESTIONS = [
   "k": "K3",
   "category": "Testanalyse und -entwurf",
   "question": "Gegeben ist die folgende Geschäftsregel: EINGABE: Wert (Ganzzahl) WENN (Wert ≤ 100 ODER Wert ≥ 200) DANN schreibe „Wert falsch“ ELSE schreibe „Wert OK“ Sie möchten Testfälle mit Hilfe einer Grenzwertanalyse mit jeweils zwei Werten pro Grenze entwerfen. Welche der folgenden Mengen von Testwerten deckt die relevanten Grenzwerte vollständig ab?",
-  "images": [],
+  "images": [
+   "images/C-21.png"
+  ],
   "options": [
    "100, 150, 200, 201",
    "99, 100, 200, 201",
@@ -2281,7 +2465,9 @@ const QUESTIONS = [
   "k": "K3",
   "category": "Testanalyse und -entwurf",
   "question": "Sie entwerfen Testfälle auf der Grundlage des folgenden Zustandsübergangsdiagramms: Wie viele Testfälle sind MINDESTENS erforderlich, um eine vollständige Überdeckung aller gültigen Übergänge zu erreichen?",
-  "images": [],
+  "images": [
+   "images/C-23.png"
+  ],
   "options": [
    "3",
    "2",
@@ -2303,7 +2489,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testanalyse und -entwurf",
   "question": "Sie sollen einen Zweigtest für den folgenden Programmcode durchführen, dessen Ablauf im Kontrollflussdiagramm dargestellt ist. Wie viele Zweige müssen getestet werden, um vollständige Zweigüberdeckung zu erreichen?",
-  "images": [],
+  "images": [
+   "images/C-24.png"
+  ],
   "options": [
    "2",
    "4",
@@ -2325,7 +2513,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testanalyse und -entwurf",
   "question": "Wie können White -Box-Tests zur Verbesserung von Black -Box-Tests beitragen?",
-  "images": [],
+  "images": [
+   "images/C-25.png"
+  ],
   "options": [
    "White-Box-Überdeckungsanalysen helfen, die Codeüberdeckung durch Black- Box-Tests zu bewerten.",
    "White-Box-Überdeckungsanalysen können helfen, unerreichbare Teile des Quellcodes zu identifizieren.",
@@ -2347,7 +2537,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testanalyse und -entwurf",
   "question": "Ein Tester verwendet beim Testen die folgende Liste: • Korrekte Eingaben werden nicht akzeptiert • Ungültige Eingaben werden akzeptiert • Falsches Ausgabeformat • Division durch null Welches Testverfahren wird dabei am WAHRSCHEINLICHSTEN eingesetzt?",
-  "images": [],
+  "images": [
+   "images/C-26.png"
+  ],
   "options": [
    "Exploratives Testen",
    "Fehlerangriff",
@@ -2369,7 +2561,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testanalyse und -entwurf",
   "question": "Welche der folgenden Aussagen beschreibt AM BESTEN, wie der Einsatz von checklistenbasiertem Testen zu höhere r Testüberdeckung führen kann?",
-  "images": [],
+  "images": [
+   "images/C-27.png"
+  ],
   "options": [
    "Checklistenelemente können so detailliert definiert werden, dass der Tester auf dieser Grundlage detaillierte Testfälle implementieren und ausführen kann.",
    "Durch die Automatisierung von Checklistenpunkten wird bei jeder Testausführung automatisch eine höhere Überdeckung erzielt.",
@@ -2391,7 +2585,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testanalyse und -entwurf",
   "question": "Welches der folgenden Akzeptanzkriterien (Abnahmekriterien) ist ein typisches Beispiel für ein szenarioorientiertes Kriterium?",
-  "images": [],
+  "images": [
+   "images/C-28.png"
+  ],
   "options": [
    "Die Anwendung muss es Nutzenden ermöglichen, ihr Konto sowie alle zugehörigen Daten auf Anfrage zu löschen.",
    "Gegeben ist ein Kunde, der nicht angemeldet ist. Wenn er einen Artikel in den Warenkorb legt und zur Kasse geht, dann wird er aufgefordert, sich anzumelden oder ein Konto zu erstellen.",
@@ -2413,7 +2609,9 @@ const QUESTIONS = [
   "k": "K3",
   "category": "Testanalyse und -entwurf",
   "question": "Sie arbeiten mit abnahmetestgetriebener Entwicklung und entwerfen Testfälle auf Grundlage der folgenden User-Story: Als regulärer oder spezieller Benutzer möchte ich meine elektronische Etagenkarte nutzen, um Zugang zu den jeweils erlaubten Etagen zu erhalten. Akzeptanzkriterien: AC1: Reguläre Benutzer haben Zugang zu den Etagen 1 bis 3. AC2: Etage 4 ist ausschließlich für spezielle Benutzer zugänglich. AC3: Spezielle Benutzer verfügen über alle Zugriffsrechte reguläre r Benutzer. Welcher Testfall eignet sich AM BESTEN, um das Akzeptanzkriterium AC3 zu testen?",
-  "images": [],
+  "images": [
+   "images/C-29.png"
+  ],
   "options": [
    "Ein regulärer Benutzer erhält Zugang zu den Etagen 1 und 3.",
    "Ein regulärer Benutzer hat keinen Zugang zur Etage 4.",
@@ -2435,7 +2633,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testmanagement",
   "question": "Welcher der folgenden Punkte gehört nicht zu Zweck oder typischem Inhalt eines Testkonzepts?",
-  "images": [],
+  "images": [
+   "images/C-30.png"
+  ],
   "options": [
    "Detaillierte Festlegung konkreter Testdaten und erwarteter Ergebnisse einzelner Komponenten- und Integrationstestfälle",
    "Festlegung eines Endekriteriums auf Komponententestebene mit dem Ziel 100 % Anweisungs- und Zweigüberdeckung",
@@ -2457,7 +2657,9 @@ const QUESTIONS = [
   "k": "K3",
   "category": "Testmanagement",
   "question": "Zu Beginn jeder Iteration schätzt das Team den Testaufwand (in Personentagen), den es während dieser Iteration leisten wird. E(n) bezeichnet den geschätzten und A(n) den tatsächlich geleisteten Aufwand in Iteration n. Ab der dritten Iteration verwendet das Team folgendes Extrapolationsmodell zur Aufwandsschätzung: E(n) = 𝟑∗𝑨(𝒏−𝟏)+𝑨(𝒏−𝟐) 𝟒 (𝒇ü𝒓 𝒏 ≥ 𝟑) Eine Grafik zeigt die geschätzten und tatsächlichen Werte für die ersten vier Iterationen. Wie hoch ist der geschätzte Testaufwand für Iteration Nr. 5?",
-  "images": [],
+  "images": [
+   "images/C-31.png"
+  ],
   "options": [
    "10,5 Personentage",
    "8,25 Personentage",
@@ -2503,7 +2705,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Testmanagement",
   "question": "Was zeigt das Testpyramidenmodell?",
-  "images": [],
+  "images": [
+   "images/C-33.png"
+  ],
   "options": [
    "Tests können unterschiedliche Prioritäten haben.",
    "Tests haben unterschiedliche Granularität.",
@@ -2525,7 +2729,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testmanagement",
   "question": "Welche Beziehung besteht zwischen den Testquadranten, Teststufen und Testarten?",
-  "images": [],
+  "images": [
+   "images/C-34.png"
+  ],
   "options": [
    "Testquadranten kombinieren bestimmte Teststufen mit Testarten und ordnen sie einem festen Abschnitt im Softwareentwicklungslebenszyklus zu.",
    "Testquadranten definieren die Granularität von Testarten, die auf unterschiedlichen Teststufen angewendet werden.",
@@ -2547,7 +2753,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testmanagement",
   "question": "Wie kann eine Produktrisikoanalyse den Umfang und die Gründlichkeit von Tests beeinflussen?",
-  "images": [],
+  "images": [
+   "images/C-35.png"
+  ],
   "options": [
    "Durch kontinuierliche Risikoüberwachung können neue Risiken frühzeitig erkannt werden.",
    "Die Risikoidentifikation unterstützt die Planung risikomindernder Maßnahmen.",
@@ -2569,7 +2777,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testmanagement",
   "question": "In welcher der folgenden Aktivitäten werden Daten aus Testfortschrittsberichten typischerweise verwendet?",
-  "images": [],
+  "images": [
+   "images/C-36.png"
+  ],
   "options": [
    "Testentwurf",
    "Testabschluss",
@@ -2591,7 +2801,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testmanagement",
   "question": "Welche der folgenden Aussagen stellt kein Beispiel dafür dar, wie das Konfigurationsmanagement das Testen unterstützt?",
-  "images": [],
+  "images": [
+   "images/C-37.png"
+  ],
   "options": [
    "Alle Konfigurationselemente im Repository werden eindeutig identifiziert, versionskontrolliert und Änderungen werden nachverfolgt.",
    "Änderungen an der Testumgebung werden dokumentiert und nachvollziehbar gemacht.",
@@ -2613,7 +2825,9 @@ const QUESTIONS = [
   "k": "K3",
   "category": "Testmanagement",
   "question": "Betrachten Sie den folgenden Fehlerbericht für eine webbasierte Einkaufsanwendung: Anwendung: WebShop v0.99 Fehler: Login-Button funktioniert nicht Schritte zum Reproduzieren: Starten Sie die Website Klicken Sie auf den Login-Button Erwartetes Ergebnis: Der Benutzer wird zur Anmeldeseite weitergeleitet. Tatsächliches Ergebnis: Der Login-Button reagiert nicht. Schweregrad: Hoch Priorität: Dringend Welche fehlende Information ist für die Reproduktion AM WICHTIGSTEN?",
-  "images": [],
+  "images": [
+   "images/C-38.png"
+  ],
   "options": [
    "Name des Testers und Datum des Berichts.",
    "Angaben zur Testumgebung, z. B. Browser und jeweilige Versionsinformationen.",
@@ -2635,7 +2849,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testwerkzeuge",
   "question": "Welche der folgenden Werkzeugkategorien unterstützt die Verwaltung von Anforderungen, Tests, Fehlerzuständen und Konfiguration?",
-  "images": [],
+  "images": [
+   "images/C-39.png"
+  ],
   "options": [
    "Werkzeuge für Testdurchführung und Testüberdeckung.",
    "Werkzeuge für Testentwurf und Testrealisierung.",
@@ -2657,7 +2873,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Testwerkzeuge",
   "question": "Welcher der folgenden Punkte ist ein typischer Nutzen der Testautomatisierung?",
-  "images": [],
+  "images": [
+   "images/C-40.png"
+  ],
   "options": [
    "Automatisierte Generierung von Testfällen ohne Bezug zur Testbasis",
    "Erhöhte Überdeckung durch objektive Bewertung von Testergebnissen",
@@ -2679,7 +2897,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Testgrundlagen",
   "question": "Welche der folgenden Aussagen beschreibt ein typisches Ziel von Softwaretests?",
-  "images": [],
+  "images": [
+   "images/D-1.png"
+  ],
   "options": [
    "Fehler im Testobjekt identifizieren und beheben.",
    "Eine effektive Kommunikation mit dem Entwicklungsteam sicherstellen.",
@@ -2701,7 +2921,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testgrundlagen",
   "question": "Ein Designer erstellt das Layout einer Benutzeroberfläche, berücksichtigt dabei jedoch nicht die Bedürfnisse behinderter Nutzer – möglicherweise aufgrund von Müdigkeit. Ein Entwickler implementiert dieses Design, verzichtet aber aus Zeitgründen auf eine ge eignete Ausnahmebehandlung für Bonusberechnungen. Nach der Einführung des Systems beschweren sich einige Nutzer über die eingeschränkte Barrierefreiheit, woraufhin das Unternehmen von der Aufsichtsbehörde mit einer Geldstrafe belegt wird. Der Fehler in der Bonusberechnung bleibt zunächst unbemerkt. Welche der folgenden Aussagen IST KORREKT?",
-  "images": [],
+  "images": [
+   "images/D-2.png"
+  ],
   "options": [
    "Die fehlerhafte Bonusberechnung ist ein sporadisch auftretender Fehlerzustand.",
    "Die verhängte Geldstrafe wegen mangelnder Barrierefreiheit stellt einen Ausfall dar.",
@@ -2723,7 +2945,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testgrundlagen",
   "question": "Tester leiten aus denselben Testbedingungen jeweils unterschiedliche Testfälle ab. Welcher Grundsatz des Testens wird dadurch am besten verdeutlicht?",
-  "images": [],
+  "images": [
+   "images/D-3.png"
+  ],
   "options": [
    "Tests nutzen sich ab.",
    "„Keine Fehler“ bedeutet ein brauchbares System.",
@@ -2745,7 +2969,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testgrundlagen",
   "question": "Gegeben sind die folgenden Testaufgaben: 1. Testfälle aus Testbedingungen ableiten 2. Wiederverwendbare Testware identifizieren 3. Testfälle in Testabläufen organisieren 4. Testbasis und Testobjekt bewerten Und die folgenden Testaktivitäten: A. Testanalyse B. Testentwurf C. Testrealisierung D. Testabschluss Welche der folgenden Zuordnungen passt AM BESTEN zu den Aufgaben und Aktivitäten?",
-  "images": [],
+  "images": [
+   "images/D-4.png"
+  ],
   "options": [
    "1B, 2A, 3D, 4C",
    "1B, 2D, 3C, 4A",
@@ -2767,7 +2993,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testgrundlagen",
   "question": "Welche der folgenden Optionen ist das beste Beispiel für Testware, die im",
-  "images": [],
+  "images": [
+   "images/D-5.png"
+  ],
   "options": [
    "Testabschlussbericht",
    "Testdaten für Eingaben und erwartete Ergebnisse in einer Datenbank",
@@ -2789,7 +3017,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testgrundlagen",
   "question": "Welche der folgenden Optionen beschreibt AM BESTEN eine typische Aufgabe einer Person in der Testmanagementrolle?",
-  "images": [],
+  "images": [
+   "images/D-6.png"
+  ],
   "options": [
    "Bewertung von Testbasis und Testobjekt",
    "Definition der Anforderungen an die Testumgebung",
@@ -2811,7 +3041,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Testgrundlagen",
   "question": "Welche der folgenden Aussagen beschreibt einen einen Vorteil des Whole-Team-Ansatzes?",
-  "images": [],
+  "images": [
+   "images/D-7.png"
+  ],
   "options": [
    "Verbesserte Kommunikation im Team",
    "Geringere individuelle Verantwortung für Qualität",
@@ -2833,7 +3065,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testgrundlagen",
   "question": "Welche der folgenden Aussagen zur Unabhängigkeit des Testens werden",
-  "images": [],
+  "images": [
+   "images/D-8.png"
+  ],
   "options": [
    "Die Tester arbeiten an einem anderen Standort als die Entwickler.",
    "Tester hinterfragen die Annahmen, die Entwickler beim Schreiben von Code treffen.",
@@ -2857,7 +3091,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Testen im SDLC",
   "question": "Welche der folgenden Optionen ist eine bewährte Testpraxis, die auf alle Softwareentwicklungslebenszyklen angewendet wird?",
-  "images": [],
+  "images": [
+   "images/D-9.png"
+  ],
   "options": [
    "Jede Teststufe verfolgt eigene, eindeutig definierte Testziele.",
    "Testrealisierung und -ausführung sollten während der jeweiligen Entwicklungsphase beginnen.",
@@ -2879,7 +3115,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Testen im SDLC",
   "question": "Welche der folgenden Optionen ist ein Beispiel für testgetriebene Entwicklung?",
-  "images": [],
+  "images": [
+   "images/D-10.png"
+  ],
   "options": [
    "Verhaltensgetriebene Entwicklung",
    "Teststufengetriebene Entwicklung",
@@ -2901,7 +3139,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testen im SDLC",
   "question": "Welche der folgenden Aussagen beschreibt AM BESTEN eine typische Herausforderung bei der Einführung von DevOps?",
-  "images": [],
+  "images": [
+   "images/D-11.png"
+  ],
   "options": [
    "Sicherstellen, dass nicht-funktionale Anforderungen ausreichend berücksichtigt werden.",
    "Umgang mit häufig wechselnden Testumgebungen.",
@@ -2923,7 +3163,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testen im SDLC",
   "question": "Welche der folgenden Aussagen beschreibt den Zweck von Retroperspektiven AM BESTEN ?",
-  "images": [],
+  "images": [
+   "images/D-12.png"
+  ],
   "options": [
    "Retrospektiven dienen dazu, Beiträge einzelner Teammitglieder kritisch zu bewerten.",
    "Retrospektiven ermöglichen es dem Team, erfolgreiche Aktivitäten zu identifizieren, um sie künftig beizubehalten.",
@@ -2945,7 +3187,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testen im SDLC",
   "question": "Welcher der folgenden Tests gehört AM EHESTEN zu den Funktionstests?",
-  "images": [],
+  "images": [
+   "images/D-13.png"
+  ],
   "options": [
    "Der Test überprüft, ob die Sortierfunktion eine Liste korrekt in aufsteigender Reihenfolge sortiert.",
    "Der Test überprüft, ob die Sortierfunktion das Sortieren innerhalb einer Sekunde abschließt.",
@@ -2967,7 +3211,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testen im SDLC",
   "question": "Welche der folgenden Aussagen beschreibt AM EHESTEN einen typischen Auslöser für Wartungstests eines Währungsumtauschsystems?",
-  "images": [],
+  "images": [
+   "images/D-14.png"
+  ],
   "options": [
    "Entwickler berichteten über Schwierigkeiten bei Änderungen am System, woraufhin das Testteam eine technische Überprüfung einleitete.",
    "Die Rückerstattungsoption des Währungsumtauschsystems wurde entfernt, da sie den Kunden nicht immer den richtigen Betrag zurückzahlte.",
@@ -2989,7 +3235,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Statisches Testen",
   "question": "Welches der folgenden Artefakte kann NICHT durch statisches Testen untersucht werden?",
-  "images": [],
+  "images": [
+   "images/D-15.png"
+  ],
   "options": [
    "Vertrag",
    "Testkonzept",
@@ -3011,7 +3259,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Statisches Testen",
   "question": "Welche der folgenden Aussagen beschreibt den Wert des statischen Testens AM BESTEN?",
-  "images": [],
+  "images": [
+   "images/D-16.png"
+  ],
   "options": [
    "Die bei statischen Tests gefundenen Fehlertypen unterscheiden sich von denen, die durch dynamische Tests gefunden werden können.",
    "Dynamische Tests können alle Fehler erkennen, die auch bei statischen Tests gefunden werden, sowie weitere.",
@@ -3033,7 +3283,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Statisches Testen",
   "question": "Nachfolgend finden Sie fünf Beschreibungen typischer Aktivitäten im Rahmen eines strukturierten Reviews: 1. Entdeckte Anomalien werden diskutiert und bezüglich ihres Ihres Status, ihre r Zuständigkeit und möglicher Folgemaßnahmen bewertet. 2. Probleme werden erfasst und notwendige Anpassungen vor der Abnahme des Arbeitsergebnissses vorgenommen. 3. Gutachter entwickeln Vorschläge und Fragen zum Arbeitsergebnis und identifizieren dabei mögliche Anomalien. 4. Ziel und Zeitplan werden definiert, um den Ablauf fokussiert und effizient zu gestalten. 5. Die Teilnehmenden erhalten Zugriff auf das zu prüfende Dokument. Welche der folgenden Optionen entspricht der korrekten Reihenfolge dieser Aktivitäten im Reviewprozess?",
-  "images": [],
+  "images": [
+   "images/D-17.png"
+  ],
   "options": [
    "4 – 3 – 5 – 2 – 1",
    "4 – 5 – 3 – 1 – 2",
@@ -3055,7 +3307,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Statisches Testen",
   "question": "Welcher Teilnehmer im Reviewprozess ist dafür verantwortlich , sicherzustellen, dass die Reviewsitzungen effektiv verlaufen und dass jeder Teilnehmer in den Sitzungen seine Meinung frei äußern kann?",
-  "images": [],
+  "images": [
+   "images/D-18.png"
+  ],
   "options": [
    "Manager",
    "Moderator",
@@ -3077,7 +3331,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testanalyse und -entwurf",
   "question": "Sie testen eine E-Commerce-Webanwendung und erhalten die folgende Anforderung: REQ 05 -017. Wenn die Gesamtkosten der Einkäufe 100 € überschreiten, erhält der Kunde einen Rabatt von 5 % auf zukünftige Einkäufe. Andernfalls erhält der Kunde keinen Rabatt. Welche Test verfahren eignen sich AM BESTEN zur Ableitung von Testfällen aus dieser Anforderung?",
-  "images": [],
+  "images": [
+   "images/D-19.png"
+  ],
   "options": [
    "White-Box-Testverfahren",
    "Black-Box-Testverfahren",
@@ -3099,7 +3355,9 @@ const QUESTIONS = [
   "k": "K3",
   "category": "Testanalyse und -entwurf",
   "question": "Ein System zur Online-Buchung von Kinokarten berechnet die Art des Rabatts auf Grundlage des Geburtsjahrs (BY) und des aktuellen Jahres (CY) wie folgt: Sei D = CY – BY. • Wenn D < 0: Anzeige der Fehlermeldung „Geburtsjahr kann nicht größer als aktuelles Jahr sein“. • Wenn 0 ≤ D < 18: Kinder-/Jugendrabatt. • Wenn 18 ≤ D < 65: Kein Rabatt. • Wenn D ≥ 65: Rentnerrabatt. Die Testsuite enthält bereits zwei Testfälle: • BY = 1990, CY = 2020 → erwartetes Ergebnis: Kein Rabatt • BY = 2030, CY = 2029 → erwartetes Ergebnis: Fehlermeldung Welche der folgenden Testdaten sollten ergänzt werden, um eine vollständige Äquivalenzklassenüberdeckung der Rabattberechnung zu erreichen?",
-  "images": [],
+  "images": [
+   "images/D-20.png"
+  ],
   "options": [
    "BY = 2001, CY=2065",
    "BY = 1900, CY=1965",
@@ -3123,7 +3381,9 @@ const QUESTIONS = [
   "k": "K3",
   "category": "Testanalyse und -entwurf",
   "question": "Sie testen ein Temperaturüberwachungssystem für eine Kühlanlage. Das System erhält die Temperatur (in ganzen Grad Celsius) als Eingabe. Liegt die Temperatur zwischen 0 und 2 Grad einschließlich, zeigt das System die Nachricht „Temperatur OK“ an. Liegt sie unter 0 Grad, erscheint „Temperatur zu niedrig“ , und bei h öheren Temperaturen über 2 Grad erscheint „Temperatur zu hoch“. Welches der folgenden Sets von Testeingaben liefert unter Verwendung der Zwei -Wert-Grenzwertanalyse DIE VOLLSTÄNDIGSTE Überdeckung der Grenzwerte?",
-  "images": [],
+  "images": [
+   "images/D-21.png"
+  ],
   "options": [
    "-1, 3",
    "0, 2",
@@ -3193,7 +3453,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testanalyse und -entwurf",
   "question": "Ihre Testsuite S für ein Programm P erreicht 100 % Anweisungsüberdeckung. Sie besteht aus drei Testfällen, von denen jeder jeweils 50 % Anweisungsüberdeckung erreicht. Welche der folgenden Aussagen IST KORREKT?",
-  "images": [],
+  "images": [
+   "images/D-24.png"
+  ],
   "options": [
    "Das Ausführen von S deckt alle möglichen Fehler in P auf.",
    "S erreicht 100 % Zweigüberdeckung für P.",
@@ -3215,7 +3477,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testanalyse und -entwurf",
   "question": "Warum erleichtert White-Box-Testen die Fehlererkennung auch dann, wenn die Softwarespezifikation vage, veraltet oder unvollständig ist?",
-  "images": [],
+  "images": [
+   "images/D-25.png"
+  ],
   "options": [
    "Testfälle werden auf der Basis der Struktur des Testobjekts und nicht auf der Spezifikation entworfen.",
    "Für jedes White-Box-Testverfahren kann die Überdeckung genau definiert und leicht gemessen werden.",
@@ -3237,7 +3501,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testanalyse und -entwurf",
   "question": "Welches der folgenden Beispiele wird durch den Tester bei der Anwendung de r intuitiven Testfallermittlung AM WENIGSTEN vorhergesehen?",
-  "images": [],
+  "images": [
+   "images/D-26.png"
+  ],
   "options": [
    "Der Entwickler hat die Formel in der User-Story zur Berechnung der Zinsen falsch verstanden.",
    "Der Entwickler hat „FA = A*(1+IR^N)“ statt „FA = A*(1+IR)^N“ im Quellcode geschrieben.",
@@ -3259,7 +3525,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testanalyse und -entwurf",
   "question": "Welche der folgenden Aussagen über das explorative Testen IST KORREKT?",
-  "images": [],
+  "images": [
+   "images/D-27.png"
+  ],
   "options": [
    "Testfälle werden vor Beginn einer explorativen Testsitzung entworfen.",
    "Der Tester darf die Testausführung vornehmen, aber nicht den Testentwurf.",
@@ -3281,7 +3549,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testanalyse und -entwurf",
   "question": "Welche kollaborative Praxis beim Schreiben von User -Storys hilft dem Team am besten, ein gemeinsames Verständnis über das zu liefernde Produkt zu entwickeln?",
-  "images": [],
+  "images": [
+   "images/D-28.png"
+  ],
   "options": [
    "Planungspoker, um einen Konsens über den Aufwand für die Umsetzung einer User-Story zu erreichen.",
    "Reviews, um Inkonsistenzen und Widersprüche in einer User-Story zu erkennen.",
@@ -3303,7 +3573,9 @@ const QUESTIONS = [
   "k": "K3",
   "category": "Testanalyse und -entwurf",
   "question": "Sie haben gerade begonnen, Testfälle für die folgende User-Story zu entwerfen. Als Kunde möchte ich die Suchergebnisse nach Preisspanne filtern können, damit ich Produkte innerhalb meines Budgets leichter finden kann. Akzeptanzkriterien: 1. Der Filter sollte für alle Versionen der Anwendung ab Version 3.0 funktionieren. 2. Der Filter sollte dem Kunden ermöglichen, eine Preisspanne mit einem Mindest- und einem Höchstpreis festzulegen. 3. Die Suchergebnisse sollten sich dynamisch aktualisieren, wenn der Kunde den Preisbereichsfilter anpasst. In allen Testfällen lautet die Vorbedingung wie folgt: Es sind nur zwei Produkte verfügbar, Produkt A und Produkt B. Produkt A kostet 100 € und Produkt B kostet 110 €. Welches der folgenden Beispiele ist DAS BESTE Beispiel für einen Testfall für diese User-Story?",
-  "images": [],
+  "images": [
+   "images/D-29.png"
+  ],
   "options": [
    "Webseite aufrufen und den Filter so einstellen, dass Preise zwischen 90 € und 100 € angezeigt werden. Erwartetes Ergebnis: Ergebnisse zeigen nur Produkt A. Höchstpreis auf 110 € setzen. Erwartetes Ergebnis: Ergebnisse beinhalten jetzt sowohl Produkt A als auch Produkt B.",
    "Webseite aufrufen. Erwartetes Ergebnis: Die Standardmindest- und -höchstpreise betragen jeweils 100 € und 110 €. Produkt C zum Lager hinzufügen, mit einem Preis von 120 €. Die Webseite des Kunden aktualisieren. Erwartetes Ergebnis: Der Standardhöchstpreis ändert sich auf 120 €.",
@@ -3325,7 +3597,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testmanagement",
   "question": "Welche der folgenden Optionen beschreiben AM BESTEN typische Endekriterien in einem Testprojekt?",
-  "images": [],
+  "images": [
+   "images/D-30.png"
+  ],
   "options": [
    "Das Budget ist genehmigt.",
    "Das Budget ist aufgebraucht.",
@@ -3349,7 +3623,9 @@ const QUESTIONS = [
   "k": "K3",
   "category": "Testmanagement",
   "question": "Das Team möchte die Zeit abschätzen, die ein Tester benötigt, um vier Testfälle auszuführen. Es wurden folgende Aufwandsschätzungen für einen Testfall ermittelt: • Best-Case: 1 Stunde • Worst-Case: 8 Stunden • Wahrscheinlichstes Fall: 3 Stunden Das Team verwendet das Drei -Punkt-Schätzverfahren. Wie hoch ist die geschätzte Gesamtzeit zur Ausführung aller vier Testfälle?",
-  "images": [],
+  "images": [
+   "images/D-31.png"
+  ],
   "options": [
    "14 Stunden",
    "3,5 Stunden",
@@ -3371,7 +3647,9 @@ const QUESTIONS = [
   "k": "K3",
   "category": "Testmanagement",
   "question": "Die Tabelle zeigt die Nachverfolgbarkeitsmatrix zwischen Testfällen undu Anforderungen. Ein „X“ bedeutet, dass ein Testfall die Anforderung überdeckt. Req1 Req2 Req3 Req4 Req5 Req6 Req7 TC1 X X X X TC2 X X X TC3 X X TC4 X Die Testfälle sollen mithilfe des Verfahrens der zusätzlichen Über- deckung priorisiert und anschließend alle ausgeführt werden. Welcher Testfall sollte gemäß diesem Verfahren ALS LETZTER ausgeführt werden?",
-  "images": [],
+  "images": [
+   "images/D-32.png"
+  ],
   "options": [
    "TC1",
    "TC2",
@@ -3393,7 +3671,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testmanagement",
   "question": "Wie unterstützen Testquadranten das Testen?",
-  "images": [],
+  "images": [
+   "images/D-33.png"
+  ],
   "options": [
    "Sie helfen bei der Testplanung, indem sie den Testprozess in vier Stufen unterteilen, die den vier grundlegenden Teststufen entsprechen: Komponententests, Integrationstests, Systemtests und Abnahmetests.",
    "Sie helfen bei der Bewertung hoher Überdeckungsstufen (z. B. Anforderungsüberdeckung) basierend auf niedrigen Überdeckungsstufen (z. B. Codeüberdeckung).",
@@ -3415,7 +3695,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Testmanagement",
   "question": "Für ein bestimmtes Risiko beträgt dessen Risikostufe 1.000 €, und die geschätzte Eintrittswahrscheinlichkeit liegt bei 50 %. Was ist das Schadensausmaß des Risikos?",
-  "images": [],
+  "images": [
+   "images/D-34.png"
+  ],
   "options": [
    "500 €",
    "2.000 €",
@@ -3437,7 +3719,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testmanagement",
   "question": "Welche der folgenden Optionen stellen Produktrisiken dar?",
-  "images": [],
+  "images": [
+   "images/D-35.png"
+  ],
   "options": [
    "Umfangserweiterung",
    "Schlechte Architektur",
@@ -3461,7 +3745,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testmanagement",
   "question": "Welcher der folgenden Zwecke gehört NICHT zu den gültigen Zielen eines Testberichts?",
-  "images": [],
+  "images": [
+   "images/D-36.png"
+  ],
   "options": [
    "Verfolgung des Testfortschritts und Identifizierung von Bereichen, die weitere Aufmerksamkeit erfordern.",
    "Bereitstellung von Informationen über die durchgeführten Tests, deren Ergebnisse und gefundene Probleme oder Fehlerzustände",
@@ -3483,7 +3769,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testmanagement",
   "question": "Der Benutzer meldete einen Softwarefehler. Ein Ingenieur aus dem Support-Team fragte den Benutzer nach der Softwareversionsnummer, in der der Fehler beobachtet wurde. Basierend auf der Versionsnummer stellte das Team alle Dateien des entsprechenden Release zusammen. Ein Entwickler konnte anschließend eine Analyse durchführen, den Fehlerzustand identifizieren und beheben. Welche der folgenden Optionen ermöglichte dem Team diese Vorgehensweise?",
-  "images": [],
+  "images": [
+   "images/D-37.png"
+  ],
   "options": [
    "Risikomanagement",
    "Testüberwachung und Teststeuerung",
@@ -3529,7 +3817,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testwerkzeuge",
   "question": "Werkzeuge aus welche n Testwerkzeugkategorien erleichtern höchstwahrscheinlich die Testausführung?",
-  "images": [],
+  "images": [
+   "images/D-39.png"
+  ],
   "options": [
    "Kooperationswerkzeuge",
    "DevOps-Werkzeuge",
@@ -3553,7 +3843,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Testwerkzeuge",
   "question": "Welche der folgenden Optionen ist höchstwahrscheinlich ein Risiko der Testautomatisierung?",
-  "images": [],
+  "images": [
+   "images/D-40.png"
+  ],
   "options": [
    "Die Entdeckung zusätzlicher schwerwiegender Fehler.",
    "Bereitstellung von Maßnahmen, die für Menschen zu kompliziert sind, um sie abzuleiten.",
@@ -3575,7 +3867,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Testgrundlagen",
   "question": "Welche der folgenden Aussagen beschreibt ein typisches Testziel?",
-  "images": [],
+  "images": [
+   "images/E-1.png"
+  ],
   "options": [
    "Der Test beginnt kurz vor der Freigabe des Testobjekts, um Fehlerzustände zu finden, die eine Abnahme verhindern.",
    "Es erfolgt eine Validierung, dass das Testobjekt so funktioniert, wie es von den verschiedenen Stakeholdern erwartet wird.",
@@ -3597,7 +3891,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testgrundlagen",
   "question": "Welche der folgenden Aussagen beschreibt den Unterschied zwischen Testen und Debugging am BESTEN?",
-  "images": [],
+  "images": [
+   "images/E-2.png"
+  ],
   "options": [
    "Testen identifiziert die Ursache von Fehlerzuständen. Debugging analysiert die Fehlerzustände und schlägt Präventionsmaßnahmen vor.",
    "Dynamisches Testen zeigt Fehlerwirkungen auf, die durch Fehlerzustände verursacht werden. Debugging analysiert und behebt den zugehörigen Fehlerzustand.",
@@ -3619,7 +3915,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testgrundlagen",
   "question": "Ein Product Owner sagt, dass Ihre Rolle als Tester in einem agilen Team darin besteht, alle Fehlerzustände vor dem Ende jeder Iteration aufzudecken. Welche der folgenden Optionen ist ein Grundsatz, das als Antwort auf diese (falsche) Aussage verwendet werden könnte?",
-  "images": [],
+  "images": [
+   "images/E-3.png"
+  ],
   "options": [
    "Häufung von Fehlerzuständen.",
    "Testen zeigt die Anwesenheit von Fehlerzuständen.",
@@ -3641,7 +3939,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testgrundlagen",
   "question": "Welche der folgenden Optionen ist ein Beispiel für eine Aufgabe, die im Rahmen de r Testrealisierung des Tes tprozesses durchgeführt werden kann?",
-  "images": [],
+  "images": [
+   "images/E-4.png"
+  ],
   "options": [
    "Analysieren eines Fehlerzustands.",
    "Entwerfen von Testdaten.",
@@ -3663,7 +3963,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testgrundlagen",
   "question": "Welche der folgenden Aussagen ist ein Beispiel für einen technischen Faktor, der den Testprozess beeinflusst?",
-  "images": [],
+  "images": [
+   "images/E-5.png"
+  ],
   "options": [
    "Die Software ist eine Webanwendung, die auf verschiedenen Browsern funktionieren muss.",
    "Die Software ist für einen Finanzdienstleister bestimmt, der strenge Sicherheitsanforderungen hat.",
@@ -3685,7 +3987,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testgrundlagen",
   "question": "Welche der folgenden Aussagen beschreibt am BESTEN die Unterschiede zwischen der Rolle des Testmanagements und der Rolle des Testens?",
-  "images": [],
+  "images": [
+   "images/E-6.png"
+  ],
   "options": [
    "Die Rolle des Testmanagements konzentriert sich hauptsächlich auf die Aktivitäten der Testanalyse, des Testentwurfs, der Testrealisierung und der Testdurchführung, während die Rolle des Testens die Gesamtverantwortung für den Testprozess, das Testteam und die Leitung der Testaktivitäten übernimmt.",
    "Die Rolle des Testmanagements und die Rolle des Testens sind identisch und können von derselben Person gleichzeitig übernommen werden.",
@@ -3707,7 +4011,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testgrundlagen",
   "question": "Während der Besprechung einer User -Story in einem agilen Projekt stellen Sie als Tester einen Widerspruch in der Interpretation eines Akzeptanzkriteriums einer User-Story zwischen dem Product Owner und dem Entwicklungsteam fest. Sie bringen diesen Widerspruch zur Sprache. Welche der folgenden Optionen beschreibt einen Vorteil der Unabhängigkeit des Testens, der in dieser Situation deutlich wird?",
-  "images": [],
+  "images": [
+   "images/E-7.png"
+  ],
   "options": [
    "Tester können verschiedene Arten von Fehlerwirkungen und -zuständen erkennen.",
    "Tester können die Hauptverantwortung für die Qualität übernehmen.",
@@ -3729,7 +4035,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Testgrundlagen",
   "question": "Welche der folgenden Optionen beschreibt am BESTEN die Verantwortlichkeiten, die sich aus dem agilen Whole -Team-Ansatz ergeben?",
-  "images": [],
+  "images": [
+   "images/E-8.png"
+  ],
   "options": [
    "Tester sind für die Entwicklung von Unittests verantwortlich und übergeben diese an die Entwickler zur Testdurchführung.",
    "Fachbereichsvertreter haben die Aufgabe, die Werkzeuge auszuwählen, die das Entwicklungsteam zu verwenden hat.",
@@ -3751,7 +4059,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Testen im SDLC",
   "question": "Welche der folgenden Aussagen beschreibt ein bewährtes Verfahren für das Testen in allen Softwareentwicklungslebenszyklus-(SDLC-) Modellen?",
-  "images": [],
+  "images": [
+   "images/E-9.png"
+  ],
   "options": [
    "Testaktivitäten für eine Teststufe beginnen bereits während der entsprechenden Entwicklungsphase.",
    "Eine Teststufe im Softwareentwicklungslebenszyklus-Modell beginnt, wenn die vorhergehende Teststufe abgeschlossen ist.",
@@ -3773,7 +4083,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Testen im SDLC",
   "question": "Welcher der folgenden beschriebenen Entwicklungsansätze definiert Testen NICHT als Treiber der Softwareentwicklung?",
-  "images": [],
+  "images": [
+   "images/E-10.png"
+  ],
   "options": [
    "Zuerst werden Tests erstellt. Dann wird der Code geschrieben.",
    "Die Testfälle steuern die Codierung.",
@@ -3795,7 +4107,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testen im SDLC",
   "question": "Welche der folgenden Aussagen beschreibt im Softwareentwicklungslebenszyklus (SDLC) am BESTEN Shift -Left im Testen?",
-  "images": [],
+  "images": [
+   "images/E-11.png"
+  ],
   "options": [
    "Testaktivitäten beginnen so früh wie möglich im SDLC und werden parallel zu den Entwicklungsaktivitäten durchgeführt.",
    "Testaktivitäten beginnen so spät wie möglich im SDLC und werden nach den Entwicklungsaktivitäten durchgeführt.",
@@ -3817,7 +4131,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testen im SDLC",
   "question": "Sie sind als Tester in einem Projekt eingesetzt, das nach dem iterativ - inkrementellen Entwicklungsmodell vorgeht. Welche der folgenden Aussagen sollten Sie in dieser Situation unbedingt berücksichtigen, um die Testaktivitäten optimal zu integrieren?",
-  "images": [],
+  "images": [
+   "images/E-12.png"
+  ],
   "options": [
    "Sie planen den Test als einmalige Aktivität, wenn alle Inkremente des Produkts umgesetzt wurden.",
    "Statische Tests sollten ausschließlich auf Komponententestebene stattfinden, um möglichst viele codenahe Fehlerzustände frühzeitig zu finden.",
@@ -3839,7 +4155,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testen im SDLC",
   "question": "Ein Testfall hat folgende Eigenschaften: • Er basiert auf Schnittstellenspezifikationen. • Der Schwerpunkt liegt auf dem Finden von Fehlerwirkungen in der Interaktion zwischen Komponenten. • Es werden sowohl funktionale als auch strukturbasierte Test s angewendet. In welcher der folgenden Teststufen wird dieser Testfall am WAHRSCHEINLICHSTEN ausgeführt?",
-  "images": [],
+  "images": [
+   "images/E-13.png"
+  ],
   "options": [
    "Komponentenintegrationstest",
    "Abnahmetest",
@@ -3861,7 +4179,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testen im SDLC",
   "question": "Welche der folgenden Optionen ist KEIN Auslöser für Wartung und Wartungstest?",
-  "images": [],
+  "images": [
+   "images/E-14.png"
+  ],
   "options": [
    "Außerbetriebnahme",
    "Korrigierende Änderungen oder Hotfixes",
@@ -3883,7 +4203,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Statisches Testen",
   "question": "Welche der folgenden Aussagen zum statischen Test ist am EHESTEN zutreffend?",
-  "images": [],
+  "images": [
+   "images/E-15.png"
+  ],
   "options": [
    "Der statische Test ist eine kostengünstige Möglichkeit, Fehlerzustände zu erkennen.",
    "Der statische Test macht den dynamischen Test theoretisch überflüssig.",
@@ -3905,7 +4227,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Statisches Testen",
   "question": "Welche der folgenden Aussagen beschreibt KEINEN Vorteil von frühem und häufigem Stakeholder-Feedback?",
-  "images": [],
+  "images": [
+   "images/E-16.png"
+  ],
   "options": [
    "Häufiges Feedback von Stakeholdern hilft, dass Änderungen der Anforderungen früher verstanden und umgesetzt werden.",
    "Häufiges Feedback von Stakeholdern hilft dem Entwicklungsteam, besser zu verstehen, was sie entwickeln.",
@@ -3927,7 +4251,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Statisches Testen",
   "question": "Welche der unten aufgeführten Reviewarten ist am BESTEN geeignet, wenn das Review in Übereinstimmung mit dem vollständigen allgemeinen Reviewprozess und mit dem Ziel, möglichst viel e Anomalien zu finden, durchgeführt werden soll?",
-  "images": [],
+  "images": [
+   "images/E-17.png"
+  ],
   "options": [
    "Informelles Review",
    "Technisches Review",
@@ -3949,7 +4275,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Statisches Testen",
   "question": "Während einer Phase intensiver Projektüberstunden wird eine umfangreiche Systemarchitekturspezifikation an verschiedene Projektteilnehmer versandt, zusammen mit weiteren Informationen und der Ankündigung eines technischen Reviews in drei Tagen. Das technische Review war ursprünglich nicht eingeplant. Es werden keine weiteren Anpassungen an den zugewiesenen Aufgaben der Projektteilnehmer vorgenommen, die während des technischen Reviews als Gutachter fungieren sollen. Welcher der folgenden Erfolgsfaktoren für Reviews fehlt allein aufgrund dieser Information?",
-  "images": [],
+  "images": [
+   "images/E-18.png"
+  ],
   "options": [
    "Geeignete Art des Reviews.",
    "Ausreichend Zeit zur Vorbereitung.",
@@ -3971,7 +4299,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testanalyse und -entwurf",
   "question": "Im Vorfeld einer Sitzung zur Iterationsplanung analysieren Sie eine User-Story und deren Akzeptanzkriterien ( Abnahmekriterien). Daraus leiten Sie entsprechende Testfälle ab, um das Prinzip des frühen Testens anzuwenden. Welches Testverfahren bzw. welchen Testansatz wenden Sie an?",
-  "images": [],
+  "images": [
+   "images/E-19.png"
+  ],
   "options": [
    "White-Box-Testen",
    "Black-Box-Testen",
@@ -3993,7 +4323,9 @@ const QUESTIONS = [
   "k": "K3",
   "category": "Testanalyse und -entwurf",
   "question": "Ein Gerät zur Messung des täglichen Strahlungseinfalls für Pflanzen ermittelt einen Einstrahlungswert für Sonnenschein. Dieser ergibt sich aus der Kombination der Anzahl der Stunden, in denen eine Pflanze der Sonne ausgesetzt ist (unter 3 Stunden, 3 bis 6 Stunden, über 6 Stunden), und der durchschnittlichen Intensität des Sonnenscheins (sehr niedrig, niedrig, mittel, hoch). Die folgenden Testfälle existieren bereits: Dauer (Stunden) Intensität Einstrahlung T1 1,5 sehr niedrig 10 T2 7,0 mittel 60 T3 0,5 sehr niedrig 10 Wie viele Testfälle müssen mindestens noch erzeugt werden, um eine vollständige Überdeckung ALLER GÜLTIGEN Eingabe -Äquivalenz- klassen zu gewährleisten?",
-  "images": [],
+  "images": [
+   "images/E-20.png"
+  ],
   "options": [
    "1",
    "2",
@@ -4015,7 +4347,9 @@ const QUESTIONS = [
   "k": "K3",
   "category": "Testanalyse und -entwurf",
   "question": "Eine Smart-Home-App misst die durchschnittliche Temperatur im Haus während der vergangenen Woche und gibt den Bewohnern basierend auf diesem Wert Informationen zur Umweltfreundlichkeit ihres Verhaltens. Das Feedback für die verschiedenen Durchschnittstemperaturbereiche (gerundet auf die nächsten ganzen °C) soll lauten: Bis zu 10°C Eiskalt! 11°C bis 15°C Ganz schön schattig! 16°C bis 19°C Cool! 20°C bis 22°C Zu warm! Über 22°C Sauna! Welches der folgenden Testsets liefert die HÖCHSTE Überdeckung von Grenzwerten, wenn die 2-Wert-Grenzwertanalyse verwendet wird?",
-  "images": [],
+  "images": [
+   "images/E-21.png"
+  ],
   "options": [
    "0°C, 11°C, 20°C, 22°C, 23°C",
    "9°C, 15°C, 19°C, 23°C, 100°C",
@@ -4085,7 +4419,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testanalyse und -entwurf",
   "question": "Welche der folgenden Beschreibungen der Anweisungsüberdeckung trifft zu?",
-  "images": [],
+  "images": [
+   "images/E-24.png"
+  ],
   "options": [
    "Die Anweisungsüberdeckung ist ein Maß für die Anzahl der Quellcodezeilen (ohne Kommentare), die während des Tests ausgeführt wurden.",
    "Die Anweisungsüberdeckung ist ein Maß für den prozentualen Anteil der Anweisungen im Quellcode, die im Test ausgeführt wurden.",
@@ -4107,7 +4443,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testanalyse und -entwurf",
   "question": "Welche der folgenden Aussagen stellt einen Mehrwert von White -Box- Tests dar?",
-  "images": [],
+  "images": [
+   "images/E-25.png"
+  ],
   "options": [
    "White-Box-Tests können Messgrößen für die Überdeckung von z. B. Anweisungen liefern.",
    "White-Box-Tests können überprüfen, ob der Code die Akzeptanzkriterien (Abnahmekriterien) erfüllt.",
@@ -4129,7 +4467,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testanalyse und -entwurf",
   "question": "Sie testen eine mobile App, mit der Kunden auf ihre Bankkonten zugreifen und diese verwalten können. Sie führen eine Testsuite aus, die die Bewertung jedes Bildschirms und jedes Feldes auf jedem Bildschirm anhand einer Sammlung von Heuristiken für Benutzer schnittstellen umfasst. Sie wurde aus einem populären Buch zu diesem Thema abgeleitet und soll die Attraktivität, Gebrauchstauglichkeit (Interaktionsfähigkeit) und Zugänglichkeit für solche Apps maximieren. Welche der folgenden Testverfahren kategorisiert das von Ihnen verwendete Testverfahren am BESTEN?",
-  "images": [],
+  "images": [
+   "images/E-26.png"
+  ],
   "options": [
    "Entscheidungstabellentest",
    "Explorativer Test",
@@ -4151,7 +4491,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testanalyse und -entwurf",
   "question": "Für welche der folgenden Situationen ist der Einsatz von explorative n Tests am EHESTEN sinnvoll?",
-  "images": [],
+  "images": [
+   "images/E-27.png"
+  ],
   "options": [
    "Wenn unter Zeitdruck die Durchführung bereits spezifizierter Tests beschleunigt werden muss.",
    "Wenn das System inkrementell entwickelt wird und keine Test-Charta vorhanden ist.",
@@ -4173,7 +4515,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testanalyse und -entwurf",
   "question": "Ein agiles Entwicklungsteam hat folgende User -Story formuliert: „Als Anwender möchte ich, dass der Alarmton der elektronischen Eieruhr in der Lautstärke variabel einstellbar ist, so dass ich ihn immer hören kann.“ Welches der folgenden Abnahmekriterien (Akzeptanzkriterien) ist aus der Sicht des Testens am BESTEN geeignet, um eindeutige Abnahmetests zu entwerfen?",
-  "images": [],
+  "images": [
+   "images/E-28.png"
+  ],
   "options": [
    "Die Lautstärke ist für jede Person einfach einzustellen, d. h., die Einstelltasten müssen eine nutzbare Größe haben.",
    "Der Tester kann den Alarmton auch auf der tiefsten Stufe gut hören.",
@@ -4195,7 +4539,9 @@ const QUESTIONS = [
   "k": "K3",
   "category": "Testanalyse und -entwurf",
   "question": "Bitte betrachten Sie die folgende User-Story: \"Als Systemadministrator möchte ich die Performanz des Servers überwachen können, um über einen Performanztest sicherzustellen, dass das System effizient läuft.\" Welcher Testfall eignet sich am BESTEN für eine abnahmetestgetriebene Entwicklung der User-Story?",
-  "images": [],
+  "images": [
+   "images/E-29.png"
+  ],
   "options": [
    "1. Login als Systemadministrator; wähle den Server aus; überprüfe die Serverleistung. GEGEBEN: Ich bin als Systemadministrator angemeldet UND GEGEBEN: Ich habe den Server ausgewählt, WENN ich „Serverleistung überprüfen“ auswähle, DANN wird mir eine Übersicht über die Performanz des Servers angezeigt.",
    "2. Login als Benutzer; führe eine Aufgabe aus; überprüfe die Serverleistung. GEGEBEN: Ich bin als Benutzer angemeldet UND GEGEBEN: Ich habe eine Aufgabe ausgeführt, WENN ich „Serverleistung überprüfen“ auswähle, DANN wird mir eine Übersicht über die Performanz des Servers angezeigt.",
@@ -4217,7 +4563,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Testmanagement",
   "question": "Welche der folgenden Aktivitäten führ en Tester während der Releaseplanung im agilen Projekt durch?",
-  "images": [],
+  "images": [
+   "images/E-30.png"
+  ],
   "options": [
    "Tester identifizieren und verfeinern funktionale und nicht-funktionale Aspekte des Testobjekts.",
    "Tester unterstützen die Ableitung von Aufgaben (Tasks) aus den User-Storys.",
@@ -4239,7 +4587,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testmanagement",
   "question": "Gegeben seien die folgenden Beispiele für Eingangs - und Endekriterien für einen Systemtest: 1. Das geplante Testbudget von 400 Aufwandsstunden für den Systemtest ist aufgebraucht. 2. Mehr als 95 % der geplanten Testfälle sind vollständig durchgeführt. 3. Die Testumgebung für den Performanztest ist entworfen, eingerichtet und verifiziert. 4. Es sind keine Prio-1-Fehlerzustände und maximal 4 Prio -2- Fehlerzustände offen. 5. Die Designspezifikation ist durch ein technisches Review geprüft und freigegeben. 6. Der Unittest für die Komponenten 'Steuersatz' und 'Gesamtpreis' ist abgeschlossen und freigegeben. Welche der folgenden Kombinationen ordnet die Beispiele am BESTEN als Eingangs- und Endekriterien ein?",
-  "images": [],
+  "images": [
+   "images/E-31.png"
+  ],
   "options": [
    "Eingangskriterien: 5, 6; Endekriterien: 1, 2, 3, 4",
    "Eingangskriterien: 2, 3, 4; Endekriterien: 1, 5, 6",
@@ -4261,7 +4611,9 @@ const QUESTIONS = [
   "k": "K3",
   "category": "Testmanagement",
   "question": "Sie möchten den Testaufwand für ein neues Projekt mit Hilfe einer Drei - Punkt-Schätzung abschätzen. Sie haben die folgenden Schätzungen von den Experten erhalten: Die optimistischste Schätzung (a) ist 300 Personentage, die wahrscheinlichste Schätzung (m) ist 400 Personentage und die pessimistischste Schätzung (b) ist 500 Personentage. Wie hoch schätzen Sie den Testaufwand auf Basis der Drei -Punkt- Schätzung für dieses Projekt ein?",
-  "images": [],
+  "images": [
+   "images/E-32.png"
+  ],
   "options": [
    "350 Personentage",
    "420 Personentage",
@@ -4307,7 +4659,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testmanagement",
   "question": "Welche der folgenden Aussagen veranschaulicht den Nutzen der Testquadranten?",
-  "images": [],
+  "images": [
+   "images/E-34.png"
+  ],
   "options": [
    "Der Tester kann sich bei der Auswahl der Testarten auf den entsprechenden Quadranten beziehen, so dass alle beteiligten Stakeholder den Zweck der Tests besser verstehen.",
    "Der Tester kann die Testarten, die durch Testquadranten beschrieben werden, als Überdeckungsmetrik verwenden; je mehr Tests von jedem Quadranten ausgeführt werden, desto höher ist die Überdeckung.",
@@ -4329,7 +4683,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testmanagement",
   "question": "Welche der folgenden Aussagen über die Steuerung von Produktrisiken im Rahmen der Risikominderung trifft NICHT zu?",
-  "images": [],
+  "images": [
+   "images/E-35.png"
+  ],
   "options": [
    "Die Komplexität des Datenbankmoduls wurde als hoch eingestuft, daher wurden zusätzliche Testfälle für das Modul erstellt.",
    "Die Anforderungen an das Benutzerinterface sind unklar, daher wird ein Experte für Benutzererfahrung in das Projekt einbezogen.",
@@ -4351,7 +4707,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testmanagement",
   "question": "In einem regulatorischen Projekt, das bereits in Verzug ist, haben die relevanten Stakeholder darum gebeten, täglich über den Teststatus informiert zu werden. Welche ist die EFF EKTIVERE Möglichkeit, den Teststatus zu kommunizieren, wenn die Stakeholder sich aufgrund räumlicher und zeitlicher Gegebenheiten nicht direkt abstimmen können?",
-  "images": [],
+  "images": [
+   "images/E-36.png"
+  ],
   "options": [
    "Es sollten formelle Kommunikationsmittel (z.B. formale Berichte, E-Mails) verwendet werden, um sicherzustellen, dass wichtige Informationen die Empfänger erreichen.",
    "Die Kommunikation sollte über eine Chatgruppe erfolgen, damit alle Teammitglieder möglichst zeitnah über den Teststatus informiert werden können.",
@@ -4373,7 +4731,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testmanagement",
   "question": "Welche der folgenden Aussagen beschreibt, wie das Konfigurationsmanagement die Testaktivitäten unterstützen kann?",
-  "images": [],
+  "images": [
+   "images/E-37.png"
+  ],
   "options": [
    "Eine Testerin hinterlegt den Fortschritt, den sie bei der Testdurchführung am aktuellen Tag gemacht hat, in einem Testmanagementwerkzeug.",
    "Ein Tester speichert Testdaten für die datengetriebene Testausführung in einer Datenbank und stellt sicher, dass die Daten zur Testausführungszeit aus der Datenbank gelesen werden können.",
@@ -4395,7 +4755,9 @@ const QUESTIONS = [
   "k": "K3",
   "category": "Testmanagement",
   "question": "Sie testen eine neue Version der Software für eine Kaffeemaschine. Mit dieser Software kann die Maschine verschiedene Kaffeevarianten zubereiten, die in vier Kategorien eingeteilt sind: Kaffeemenge, Zucker, Milch und Kaffeegeschmack. Die Kategorien sind wie folgt: • Kaffeemenge (klein, mittel, groß) • Zucker (keiner, 1 Einheit, 2 Einheiten, 3 Einheiten, 4 Einheiten) • Milch (ja oder nein) • Kaffeegeschmack (kein Sirup, Karamell, Haselnuss, Vanille) Sie schreiben einen Fehlerbericht mit den folgenden Informationen: Titel: Niedrige Kaffeetemperatur. Kurze Zusammenfassung: Bei der Auswahl von Kaffee mit Milch, ist die Temperatur des Getränks zu niedrig (unter 40 ºC). Erwartetes Ergebnis: Die Temperatur des Kaffees sollte dem Standard entsprechen (ca. 75 ºC). Grad der Auswirkung: Mittel Priorität: Normal Welche relevanten Informationen haben Sie im obigen Fehlerbericht vergessen?",
-  "images": [],
+  "images": [
+   "images/E-38.png"
+  ],
   "options": [
    "Tatsächliches Testergebnis.",
    "Identifikation der getesteten Softwareversion.",
@@ -4417,7 +4779,9 @@ const QUESTIONS = [
   "k": "K2",
   "category": "Testwerkzeuge",
   "question": "Gegeben seien folgende Testaktivitäten: 1. Performanzmessung und IT-Sicherheitsprüfungen 2. Testautomatisierung 3. Management der Testaktivitäten 4. Testentwurf und Testrealisierung und Testwerkzeuge: A. Werkzeuge zur Testdurchführung B. Testwerkzeuge für nicht-funktionale Tests C. Werkzeuge zur Vorbereitung von Testfällen und Testdaten D. Fehlermanagementwerkzeuge Welche Zuordnung der Werkzeuge zu den Aktivitäten trifft am BESTEN zu?",
-  "images": [],
+  "images": [
+   "images/E-39.png"
+  ],
   "options": [
    "1 – D, 2 – C, 3 – B, 4 – A",
    "1 – B, 2 – A, 3 – C, 4 – D",
@@ -4439,7 +4803,9 @@ const QUESTIONS = [
   "k": "K1",
   "category": "Testwerkzeuge",
   "question": "Welche der folgenden Aussagen beschreibt am BESTEN den potenziellen Nutzen des Einsatzes von Werkzeugen für die automatisierte Testdurchführung?",
-  "images": [],
+  "images": [
+   "images/E-40.png"
+  ],
   "options": [
    "Die Implementierung von Regressionstests ist einfacher, da diese direkt mit einem Testskript implementiert werden können.",
    "Es findet eine effizientere Bewertung des Testobjekts durch das Automatisierungswerkzeug statt.",
